@@ -13,10 +13,7 @@ class Synfigstudio < Formula
   depends_on 'imagemagick'
 
   def install
-<<<<<<< HEAD
     ENV.x11
-=======
->>>>>>> parent of f5f4ab1... bundle files
     system "autoreconf --install --force"
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
