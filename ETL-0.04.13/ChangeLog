@@ -1,0 +1,4206 @@
+2009-10-12  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Fix dates in NEWS files
+
+2009-10-12  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Tiny correction for NEWS files.
+
+2009-10-12  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Correction of ETL and Synfig Studio NEWS headers.
+
+2009-10-10  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/README: Update README files with latest changes.
+
+2009-10-10  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Update NEWS files properly.
+
+2009-10-10  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/configure.ac: Write the correct version in the configure.ac
+	files.
+
+2009-10-05  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Better redaction for NEWS files. Thanks to muhkayoh
+
+2009-10-03  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/configure.ac: Bump versions in configure.ac file.  0.04.13
+	Release Candidate #1 0.62.00 Release Candidate #1
+
+2009-10-03  Carlos Lopez <genetita@gmail.com>
+
+	* ETL/NEWS: Update the NEWS with a summary of the features added and
+	bugs fixed.
+
+2009-08-19  Konstantin Dmitriev <ksee.zelgadis@gmail.com>
+
+	* ETL/Makefile.am: Drop svn tags staff.  For information about tagging new release refer to
+	http://synfig.org/Release#Make_tags
+
+2009-08-19  Konstantin Dmitriev <ksee.zelgadis@gmail.com>
+
+	* ETL/Makefile.am: Use git instead of svn to generate ChangeLog.
+
+2009-08-12  Carlos Lopez <carlos@pcnuevo.(none)>
+
+	* ETL/AUTHORS, ETL/ETL-config.in, ETL/ETL.kdevprj,
+	ETL/ETL.pbproj/darco.mode1, ETL/ETL.pbproj/darco.pbxuser,
+	ETL/ETL.pbproj/etl_profile.h, ETL/ETL.pbproj/frameworkfix.cpp,
+	ETL/ETL.pbproj/project.pbxproj, ETL/ETL.pc.in, ETL/ETL.prj,
+	ETL/ETL/Makefile.am, ETL/ETL/_angle.h, ETL/ETL/_bezier.h,
+	ETL/ETL/_bezier_angle.h, ETL/ETL/_bit_rotate.h, ETL/ETL/_boxblur.h,
+	ETL/ETL/_bspline.h, ETL/ETL/_calculus.h, ETL/ETL/_clock_base.h,
+	ETL/ETL/_clock_gettimeofday.h, ETL/ETL/_clock_system.h,
+	ETL/ETL/_clock_win32hpcount.h, ETL/ETL/_condition.h,
+	ETL/ETL/_curve.h, ETL/ETL/_curve_func.h, ETL/ETL/_fastangle.h,
+	ETL/ETL/_fastangle_tables.h, ETL/ETL/_fixed.h, ETL/ETL/_gaussian.h,
+	ETL/ETL/_handle.h, ETL/ETL/_hermite.h, ETL/ETL/_misc.h,
+	ETL/ETL/_mutex_null.h, ETL/ETL/_mutex_pthreads.h,
+	ETL/ETL/_mutex_pthreads_simple.h, ETL/ETL/_mutex_win32.h,
+	ETL/ETL/_pen.h, ETL/ETL/_random.h, ETL/ETL/_rect.h,
+	ETL/ETL/_ref_count.h, ETL/ETL/_rwlock.h, ETL/ETL/_smach.h,
+	ETL/ETL/_smart_ptr.h, ETL/ETL/_status.h, ETL/ETL/_stringf.h,
+	ETL/ETL/_surface.h, ETL/ETL/_thread.h, ETL/ETL/_trivial.h,
+	ETL/ETL/_value.h, ETL/ETL/angle, ETL/ETL/bezier, ETL/ETL/boxblur,
+	ETL/ETL/calculus, ETL/ETL/clock, ETL/ETL/etl_config.h,
+	ETL/ETL/fastangle, ETL/ETL/fixed, ETL/ETL/gaussian, ETL/ETL/handle,
+	ETL/ETL/hermite, ETL/ETL/ipc, ETL/ETL/misc, ETL/ETL/mutex,
+	ETL/ETL/pen, ETL/ETL/random, ETL/ETL/rect, ETL/ETL/ref_count,
+	ETL/ETL/smach, ETL/ETL/smart_ptr, ETL/ETL/spline, ETL/ETL/status,
+	ETL/ETL/stringf, ETL/ETL/surface, ETL/ETL/thread, ETL/ETL/trivial,
+	ETL/ETL/value, ETL/Makefile.am, ETL/NEWS, ETL/README,
+	ETL/config/pkg-support/ETL-devel.info,
+	ETL/config/pkg-support/devel-resources/License.rtf,
+	ETL/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/config/pkg-support/devel-resources/install.sh,
+	ETL/configure.ac, ETL/doxygen.cfg.in, ETL/m4/ETL.m4,
+	ETL/m4/cxx_macros.m4, ETL/m4/subs.m4, ETL/test/Makefile.am,
+	ETL/test/angle.cpp, ETL/test/benchmark.cpp, ETL/test/clock.cpp,
+	ETL/test/fixed.cpp, ETL/test/handle.cpp, ETL/test/hermite.cpp,
+	ETL/test/pen.cpp, ETL/test/random.cpp, ETL/test/smach.cpp,
+	ETL/test/smart_ptr.cpp, ETL/test/spline.cpp, ETL/test/stringf.cpp,
+	ETL/test/surface.cpp, ETL/test/value.cpp, ETL/trunk/AUTHORS,
+	ETL/trunk/ETL-config.in, ETL/trunk/ETL.kdevprj,
+	ETL/trunk/ETL.pbproj/darco.mode1,
+	ETL/trunk/ETL.pbproj/darco.pbxuser,
+	ETL/trunk/ETL.pbproj/etl_profile.h,
+	ETL/trunk/ETL.pbproj/frameworkfix.cpp,
+	ETL/trunk/ETL.pbproj/project.pbxproj, ETL/trunk/ETL.pc.in,
+	ETL/trunk/ETL.prj, ETL/trunk/ETL/Makefile.am,
+	ETL/trunk/ETL/_angle.h, ETL/trunk/ETL/_bezier.h,
+	ETL/trunk/ETL/_bezier_angle.h, ETL/trunk/ETL/_bit_rotate.h,
+	ETL/trunk/ETL/_boxblur.h, ETL/trunk/ETL/_bspline.h,
+	ETL/trunk/ETL/_calculus.h, ETL/trunk/ETL/_clock_base.h,
+	ETL/trunk/ETL/_clock_gettimeofday.h, ETL/trunk/ETL/_clock_system.h,
+	ETL/trunk/ETL/_clock_win32hpcount.h, ETL/trunk/ETL/_condition.h,
+	ETL/trunk/ETL/_curve.h, ETL/trunk/ETL/_curve_func.h,
+	ETL/trunk/ETL/_fastangle.h, ETL/trunk/ETL/_fastangle_tables.h,
+	ETL/trunk/ETL/_fixed.h, ETL/trunk/ETL/_gaussian.h,
+	ETL/trunk/ETL/_handle.h, ETL/trunk/ETL/_hermite.h,
+	ETL/trunk/ETL/_misc.h, ETL/trunk/ETL/_mutex_null.h,
+	ETL/trunk/ETL/_mutex_pthreads.h,
+	ETL/trunk/ETL/_mutex_pthreads_simple.h,
+	ETL/trunk/ETL/_mutex_win32.h, ETL/trunk/ETL/_pen.h,
+	ETL/trunk/ETL/_random.h, ETL/trunk/ETL/_rect.h,
+	ETL/trunk/ETL/_ref_count.h, ETL/trunk/ETL/_rwlock.h,
+	ETL/trunk/ETL/_smach.h, ETL/trunk/ETL/_smart_ptr.h,
+	ETL/trunk/ETL/_status.h, ETL/trunk/ETL/_stringf.h,
+	ETL/trunk/ETL/_surface.h, ETL/trunk/ETL/_thread.h,
+	ETL/trunk/ETL/_trivial.h, ETL/trunk/ETL/_value.h,
+	ETL/trunk/ETL/angle, ETL/trunk/ETL/bezier, ETL/trunk/ETL/boxblur,
+	ETL/trunk/ETL/calculus, ETL/trunk/ETL/clock,
+	ETL/trunk/ETL/etl_config.h, ETL/trunk/ETL/fastangle,
+	ETL/trunk/ETL/fixed, ETL/trunk/ETL/gaussian, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/hermite, ETL/trunk/ETL/ipc, ETL/trunk/ETL/misc,
+	ETL/trunk/ETL/mutex, ETL/trunk/ETL/pen, ETL/trunk/ETL/random,
+	ETL/trunk/ETL/rect, ETL/trunk/ETL/ref_count, ETL/trunk/ETL/smach,
+	ETL/trunk/ETL/smart_ptr, ETL/trunk/ETL/spline,
+	ETL/trunk/ETL/status, ETL/trunk/ETL/stringf, ETL/trunk/ETL/surface,
+	ETL/trunk/ETL/thread, ETL/trunk/ETL/trivial, ETL/trunk/ETL/value,
+	ETL/trunk/Makefile.am, ETL/trunk/NEWS, ETL/trunk/README,
+	ETL/trunk/config/pkg-support/ETL-devel.info,
+	ETL/trunk/config/pkg-support/devel-resources/License.rtf,
+	ETL/trunk/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/trunk/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/trunk/config/pkg-support/devel-resources/install.sh,
+	ETL/trunk/configure.ac, ETL/trunk/doxygen.cfg.in,
+	ETL/trunk/m4/ETL.m4, ETL/trunk/m4/cxx_macros.m4,
+	ETL/trunk/m4/subs.m4, ETL/trunk/test/Makefile.am,
+	ETL/trunk/test/angle.cpp, ETL/trunk/test/benchmark.cpp,
+	ETL/trunk/test/clock.cpp, ETL/trunk/test/fixed.cpp,
+	ETL/trunk/test/handle.cpp, ETL/trunk/test/hermite.cpp,
+	ETL/trunk/test/pen.cpp, ETL/trunk/test/random.cpp,
+	ETL/trunk/test/smach.cpp, ETL/trunk/test/smart_ptr.cpp,
+	ETL/trunk/test/spline.cpp, ETL/trunk/test/stringf.cpp,
+	ETL/trunk/test/surface.cpp, ETL/trunk/test/value.cpp: Remove ancient
+	trunk folder from svn repository
+
+2009-07-06  Carlos Lopez <carlos@pcnuevo.(none)>
+
+	* ETL/trunk/ETL.pbproj/etl_profile.h, ETL/trunk/ETL.pc.in,
+	ETL/trunk/ETL/Makefile.am, ETL/trunk/ETL/_mutex_pthreads.h,
+	ETL/trunk/ETL/_stringf.h, ETL/trunk/ETL/_thread.h,
+	ETL/trunk/ETL/clock, ETL/trunk/ETL/etl_config.h,
+	ETL/trunk/ETL/etl_profile.h.in, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/mutex, ETL/trunk/Makefile.am, ETL/trunk/configure.ac,
+	ETL/trunk/m4/ETL.m4: Revert modifications for Fedora compatibility
+	due to stability problems.
+
+2009-06-13  Carlos Lopez <carlos@pcnuevo.(none)>
+
+	* ETL/tags/0.04.12/AUTHORS, ETL/tags/0.04.12/ETL-config.in,
+	ETL/tags/0.04.12/ETL.kdevprj,
+	ETL/tags/0.04.12/ETL.pbproj/darco.mode1,
+	ETL/tags/0.04.12/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.04.12/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.04.12/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.04.12/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.04.12/ETL.pc.in, ETL/tags/0.04.12/ETL.prj,
+	ETL/tags/0.04.12/ETL/Makefile.am, ETL/tags/0.04.12/ETL/_angle.h,
+	ETL/tags/0.04.12/ETL/_bezier.h,
+	ETL/tags/0.04.12/ETL/_bezier_angle.h,
+	ETL/tags/0.04.12/ETL/_bit_rotate.h,
+	ETL/tags/0.04.12/ETL/_boxblur.h, ETL/tags/0.04.12/ETL/_bspline.h,
+	ETL/tags/0.04.12/ETL/_calculus.h,
+	ETL/tags/0.04.12/ETL/_clock_base.h,
+	ETL/tags/0.04.12/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.04.12/ETL/_clock_system.h,
+	ETL/tags/0.04.12/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.04.12/ETL/_condition.h, ETL/tags/0.04.12/ETL/_curve.h,
+	ETL/tags/0.04.12/ETL/_curve_func.h,
+	ETL/tags/0.04.12/ETL/_fastangle.h,
+	ETL/tags/0.04.12/ETL/_fastangle_tables.h,
+	ETL/tags/0.04.12/ETL/_fixed.h, ETL/tags/0.04.12/ETL/_gaussian.h,
+	ETL/tags/0.04.12/ETL/_handle.h, ETL/tags/0.04.12/ETL/_hermite.h,
+	ETL/tags/0.04.12/ETL/_misc.h, ETL/tags/0.04.12/ETL/_mutex_null.h,
+	ETL/tags/0.04.12/ETL/_mutex_pthreads.h,
+	ETL/tags/0.04.12/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.04.12/ETL/_mutex_win32.h, ETL/tags/0.04.12/ETL/_pen.h,
+	ETL/tags/0.04.12/ETL/_random.h, ETL/tags/0.04.12/ETL/_rect.h,
+	ETL/tags/0.04.12/ETL/_ref_count.h, ETL/tags/0.04.12/ETL/_rwlock.h,
+	ETL/tags/0.04.12/ETL/_smach.h, ETL/tags/0.04.12/ETL/_smart_ptr.h,
+	ETL/tags/0.04.12/ETL/_status.h, ETL/tags/0.04.12/ETL/_stringf.h,
+	ETL/tags/0.04.12/ETL/_surface.h, ETL/tags/0.04.12/ETL/_thread.h,
+	ETL/tags/0.04.12/ETL/_trivial.h, ETL/tags/0.04.12/ETL/_value.h,
+	ETL/tags/0.04.12/ETL/angle, ETL/tags/0.04.12/ETL/bezier,
+	ETL/tags/0.04.12/ETL/boxblur, ETL/tags/0.04.12/ETL/calculus,
+	ETL/tags/0.04.12/ETL/clock, ETL/tags/0.04.12/ETL/etl_config.h,
+	ETL/tags/0.04.12/ETL/etl_profile_.h.in,
+	ETL/tags/0.04.12/ETL/fastangle, ETL/tags/0.04.12/ETL/fixed,
+	ETL/tags/0.04.12/ETL/gaussian, ETL/tags/0.04.12/ETL/handle,
+	ETL/tags/0.04.12/ETL/hermite, ETL/tags/0.04.12/ETL/ipc,
+	ETL/tags/0.04.12/ETL/misc, ETL/tags/0.04.12/ETL/mutex,
+	ETL/tags/0.04.12/ETL/pen, ETL/tags/0.04.12/ETL/random,
+	ETL/tags/0.04.12/ETL/rect, ETL/tags/0.04.12/ETL/ref_count,
+	ETL/tags/0.04.12/ETL/smach, ETL/tags/0.04.12/ETL/smart_ptr,
+	ETL/tags/0.04.12/ETL/spline, ETL/tags/0.04.12/ETL/status,
+	ETL/tags/0.04.12/ETL/stringf, ETL/tags/0.04.12/ETL/surface,
+	ETL/tags/0.04.12/ETL/thread, ETL/tags/0.04.12/ETL/trivial,
+	ETL/tags/0.04.12/ETL/value, ETL/tags/0.04.12/Makefile.am,
+	ETL/tags/0.04.12/NEWS, ETL/tags/0.04.12/README,
+	ETL/tags/0.04.12/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.04.12/configure.ac, ETL/tags/0.04.12/doxygen.cfg.in,
+	ETL/tags/0.04.12/m4/ETL.m4, ETL/tags/0.04.12/m4/cxx_macros.m4,
+	ETL/tags/0.04.12/m4/subs.m4, ETL/tags/0.04.12/test/Makefile.am,
+	ETL/tags/0.04.12/test/angle.cpp,
+	ETL/tags/0.04.12/test/benchmark.cpp,
+	ETL/tags/0.04.12/test/clock.cpp, ETL/tags/0.04.12/test/fixed.cpp,
+	ETL/tags/0.04.12/test/handle.cpp,
+	ETL/tags/0.04.12/test/hermite.cpp, ETL/tags/0.04.12/test/pen.cpp,
+	ETL/tags/0.04.12/test/random.cpp, ETL/tags/0.04.12/test/smach.cpp,
+	ETL/tags/0.04.12/test/smart_ptr.cpp,
+	ETL/tags/0.04.12/test/spline.cpp,
+	ETL/tags/0.04.12/test/stringf.cpp,
+	ETL/tags/0.04.12/test/surface.cpp, ETL/tags/0.04.12/test/value.cpp,
+	ETL/tags/0.4.11/AUTHORS, ETL/tags/0.4.11/ETL-config.in,
+	ETL/tags/0.4.11/ETL.kdevprj,
+	ETL/tags/0.4.11/ETL.pbproj/darco.mode1,
+	ETL/tags/0.4.11/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.4.11/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.4.11/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.4.11/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.4.11/ETL.pc.in, ETL/tags/0.4.11/ETL.prj,
+	ETL/tags/0.4.11/ETL/Makefile.am, ETL/tags/0.4.11/ETL/_angle.h,
+	ETL/tags/0.4.11/ETL/_bezier.h, ETL/tags/0.4.11/ETL/_bezier_angle.h,
+	ETL/tags/0.4.11/ETL/_bit_rotate.h, ETL/tags/0.4.11/ETL/_boxblur.h,
+	ETL/tags/0.4.11/ETL/_bspline.h, ETL/tags/0.4.11/ETL/_calculus.h,
+	ETL/tags/0.4.11/ETL/_clock_base.h,
+	ETL/tags/0.4.11/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.4.11/ETL/_clock_system.h,
+	ETL/tags/0.4.11/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.4.11/ETL/_condition.h, ETL/tags/0.4.11/ETL/_curve.h,
+	ETL/tags/0.4.11/ETL/_curve_func.h,
+	ETL/tags/0.4.11/ETL/_fastangle.h,
+	ETL/tags/0.4.11/ETL/_fastangle_tables.h,
+	ETL/tags/0.4.11/ETL/_fixed.h, ETL/tags/0.4.11/ETL/_gaussian.h,
+	ETL/tags/0.4.11/ETL/_handle.h, ETL/tags/0.4.11/ETL/_hermite.h,
+	ETL/tags/0.4.11/ETL/_misc.h, ETL/tags/0.4.11/ETL/_mutex_null.h,
+	ETL/tags/0.4.11/ETL/_mutex_pthreads.h,
+	ETL/tags/0.4.11/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.4.11/ETL/_mutex_win32.h, ETL/tags/0.4.11/ETL/_pen.h,
+	ETL/tags/0.4.11/ETL/_random.h, ETL/tags/0.4.11/ETL/_rect.h,
+	ETL/tags/0.4.11/ETL/_ref_count.h, ETL/tags/0.4.11/ETL/_rwlock.h,
+	ETL/tags/0.4.11/ETL/_smach.h, ETL/tags/0.4.11/ETL/_smart_ptr.h,
+	ETL/tags/0.4.11/ETL/_status.h, ETL/tags/0.4.11/ETL/_stringf.h,
+	ETL/tags/0.4.11/ETL/_surface.h, ETL/tags/0.4.11/ETL/_thread.h,
+	ETL/tags/0.4.11/ETL/_trivial.h, ETL/tags/0.4.11/ETL/_value.h,
+	ETL/tags/0.4.11/ETL/angle, ETL/tags/0.4.11/ETL/bezier,
+	ETL/tags/0.4.11/ETL/boxblur, ETL/tags/0.4.11/ETL/calculus,
+	ETL/tags/0.4.11/ETL/clock, ETL/tags/0.4.11/ETL/etl_config.h,
+	ETL/tags/0.4.11/ETL/etl_profile_.h.in,
+	ETL/tags/0.4.11/ETL/fastangle, ETL/tags/0.4.11/ETL/fixed,
+	ETL/tags/0.4.11/ETL/gaussian, ETL/tags/0.4.11/ETL/handle,
+	ETL/tags/0.4.11/ETL/hermite, ETL/tags/0.4.11/ETL/ipc,
+	ETL/tags/0.4.11/ETL/misc, ETL/tags/0.4.11/ETL/mutex,
+	ETL/tags/0.4.11/ETL/pen, ETL/tags/0.4.11/ETL/random,
+	ETL/tags/0.4.11/ETL/rect, ETL/tags/0.4.11/ETL/ref_count,
+	ETL/tags/0.4.11/ETL/smach, ETL/tags/0.4.11/ETL/smart_ptr,
+	ETL/tags/0.4.11/ETL/spline, ETL/tags/0.4.11/ETL/status,
+	ETL/tags/0.4.11/ETL/stringf, ETL/tags/0.4.11/ETL/surface,
+	ETL/tags/0.4.11/ETL/thread, ETL/tags/0.4.11/ETL/trivial,
+	ETL/tags/0.4.11/ETL/value, ETL/tags/0.4.11/Makefile.am,
+	ETL/tags/0.4.11/NEWS, ETL/tags/0.4.11/README,
+	ETL/tags/0.4.11/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.4.11/configure.ac, ETL/tags/0.4.11/doxygen.cfg.in,
+	ETL/tags/0.4.11/m4/ETL.m4, ETL/tags/0.4.11/m4/cxx_macros.m4,
+	ETL/tags/0.4.11/m4/subs.m4, ETL/tags/0.4.11/test/Makefile.am,
+	ETL/tags/0.4.11/test/angle.cpp, ETL/tags/0.4.11/test/benchmark.cpp,
+	ETL/tags/0.4.11/test/clock.cpp, ETL/tags/0.4.11/test/fixed.cpp,
+	ETL/tags/0.4.11/test/handle.cpp, ETL/tags/0.4.11/test/hermite.cpp,
+	ETL/tags/0.4.11/test/pen.cpp, ETL/tags/0.4.11/test/random.cpp,
+	ETL/tags/0.4.11/test/smach.cpp, ETL/tags/0.4.11/test/smart_ptr.cpp,
+	ETL/tags/0.4.11/test/spline.cpp, ETL/tags/0.4.11/test/stringf.cpp,
+	ETL/tags/0.4.11/test/surface.cpp, ETL/tags/0.4.11/test/value.cpp,
+	ETL/tags/ETL_0_04_08/ETL/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/ChangeLog,
+	ETL/tags/ETL_0_04_08/ETL/ETL-config.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL.kdevprj,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pc.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL.prj,
+	ETL/tags/ETL_0_04_08/ETL/ETL/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_angle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_condition.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_curve.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_handle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_misc.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_pen.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_random.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_rect.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_smach.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_status.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_surface.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_thread.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_value.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/angle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/bezier,
+	ETL/tags/ETL_0_04_08/ETL/ETL/boxblur,
+	ETL/tags/ETL_0_04_08/ETL/ETL/calculus,
+	ETL/tags/ETL_0_04_08/ETL/ETL/clock,
+	ETL/tags/ETL_0_04_08/ETL/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL/fastangle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/fixed,
+	ETL/tags/ETL_0_04_08/ETL/ETL/gaussian,
+	ETL/tags/ETL_0_04_08/ETL/ETL/handle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/hermite,
+	ETL/tags/ETL_0_04_08/ETL/ETL/ipc,
+	ETL/tags/ETL_0_04_08/ETL/ETL/misc,
+	ETL/tags/ETL_0_04_08/ETL/ETL/pen,
+	ETL/tags/ETL_0_04_08/ETL/ETL/random,
+	ETL/tags/ETL_0_04_08/ETL/ETL/rect,
+	ETL/tags/ETL_0_04_08/ETL/ETL/ref_count,
+	ETL/tags/ETL_0_04_08/ETL/ETL/smach,
+	ETL/tags/ETL_0_04_08/ETL/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_08/ETL/ETL/spline,
+	ETL/tags/ETL_0_04_08/ETL/ETL/status,
+	ETL/tags/ETL_0_04_08/ETL/ETL/stringf,
+	ETL/tags/ETL_0_04_08/ETL/ETL/surface,
+	ETL/tags/ETL_0_04_08/ETL/ETL/thread,
+	ETL/tags/ETL_0_04_08/ETL/ETL/trivial,
+	ETL/tags/ETL_0_04_08/ETL/ETL/value,
+	ETL/tags/ETL_0_04_08/ETL/INSTALL,
+	ETL/tags/ETL_0_04_08/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/README,
+	ETL/tags/ETL_0_04_08/ETL/bootstrap,
+	ETL/tags/ETL_0_04_08/ETL/config/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/config/ETL.m4,
+	ETL/tags/ETL_0_04_08/ETL/config/build.cfg,
+	ETL/tags/ETL_0_04_08/ETL/config/configure.ac,
+	ETL/tags/ETL_0_04_08/ETL/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_08/ETL/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_08/ETL/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_08/ETL/config/project.spec.in,
+	ETL/tags/ETL_0_04_08/ETL/config/subs.m4,
+	ETL/tags/ETL_0_04_08/ETL/doxygen.cfg,
+	ETL/tags/ETL_0_04_08/ETL/test/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/test/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/test/angle.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/clock.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/fixed.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/handle.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/hermite.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/pen.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/random.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/smach.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/spline.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/stringf.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/surface.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/value.cpp,
+	ETL/tags/ETL_0_04_09/AUTHORS, ETL/tags/ETL_0_04_09/ETL-config.in,
+	ETL/tags/ETL_0_04_09/ETL.kdevprj,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_09/ETL.prj, ETL/tags/ETL_0_04_09/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_09/ETL/_angle.h,
+	ETL/tags/ETL_0_04_09/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_09/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_09/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_09/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_09/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_09/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_09/ETL/_condition.h,
+	ETL/tags/ETL_0_04_09/ETL/_curve.h,
+	ETL/tags/ETL_0_04_09/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_09/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_09/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_09/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_09/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_09/ETL/_handle.h,
+	ETL/tags/ETL_0_04_09/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_09/ETL/_misc.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_09/ETL/_pen.h,
+	ETL/tags/ETL_0_04_09/ETL/_random.h,
+	ETL/tags/ETL_0_04_09/ETL/_rect.h,
+	ETL/tags/ETL_0_04_09/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_09/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_09/ETL/_smach.h,
+	ETL/tags/ETL_0_04_09/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_09/ETL/_status.h,
+	ETL/tags/ETL_0_04_09/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_09/ETL/_surface.h,
+	ETL/tags/ETL_0_04_09/ETL/_thread.h,
+	ETL/tags/ETL_0_04_09/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_09/ETL/_value.h, ETL/tags/ETL_0_04_09/ETL/angle,
+	ETL/tags/ETL_0_04_09/ETL/bezier, ETL/tags/ETL_0_04_09/ETL/boxblur,
+	ETL/tags/ETL_0_04_09/ETL/calculus, ETL/tags/ETL_0_04_09/ETL/clock,
+	ETL/tags/ETL_0_04_09/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_09/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_09/ETL/fastangle, ETL/tags/ETL_0_04_09/ETL/fixed,
+	ETL/tags/ETL_0_04_09/ETL/gaussian, ETL/tags/ETL_0_04_09/ETL/handle,
+	ETL/tags/ETL_0_04_09/ETL/hermite, ETL/tags/ETL_0_04_09/ETL/ipc,
+	ETL/tags/ETL_0_04_09/ETL/misc, ETL/tags/ETL_0_04_09/ETL/pen,
+	ETL/tags/ETL_0_04_09/ETL/random, ETL/tags/ETL_0_04_09/ETL/rect,
+	ETL/tags/ETL_0_04_09/ETL/ref_count, ETL/tags/ETL_0_04_09/ETL/smach,
+	ETL/tags/ETL_0_04_09/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_09/ETL/spline, ETL/tags/ETL_0_04_09/ETL/status,
+	ETL/tags/ETL_0_04_09/ETL/stringf, ETL/tags/ETL_0_04_09/ETL/surface,
+	ETL/tags/ETL_0_04_09/ETL/thread, ETL/tags/ETL_0_04_09/ETL/trivial,
+	ETL/tags/ETL_0_04_09/ETL/value, ETL/tags/ETL_0_04_09/Makefile.am,
+	ETL/tags/ETL_0_04_09/NEWS, ETL/tags/ETL_0_04_09/README,
+	ETL/tags/ETL_0_04_09/bootstrap, ETL/tags/ETL_0_04_09/config/ETL.m4,
+	ETL/tags/ETL_0_04_09/config/build.cfg,
+	ETL/tags/ETL_0_04_09/config/configure.ac,
+	ETL/tags/ETL_0_04_09/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_09/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_09/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/License.rtf
+	,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/Welcome.rtf
+	,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/ETL_0_04_09/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_09/config/project.spec.in,
+	ETL/tags/ETL_0_04_09/config/subs.m4,
+	ETL/tags/ETL_0_04_09/test/Makefile.am,
+	ETL/tags/ETL_0_04_09/test/angle.cpp,
+	ETL/tags/ETL_0_04_09/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_09/test/clock.cpp,
+	ETL/tags/ETL_0_04_09/test/fixed.cpp,
+	ETL/tags/ETL_0_04_09/test/handle.cpp,
+	ETL/tags/ETL_0_04_09/test/hermite.cpp,
+	ETL/tags/ETL_0_04_09/test/pen.cpp,
+	ETL/tags/ETL_0_04_09/test/random.cpp,
+	ETL/tags/ETL_0_04_09/test/smach.cpp,
+	ETL/tags/ETL_0_04_09/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_09/test/spline.cpp,
+	ETL/tags/ETL_0_04_09/test/stringf.cpp,
+	ETL/tags/ETL_0_04_09/test/surface.cpp,
+	ETL/tags/ETL_0_04_09/test/value.cpp, ETL/tags/ETL_0_04_10/AUTHORS,
+	ETL/tags/ETL_0_04_10/ETL-config.in,
+	ETL/tags/ETL_0_04_10/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10/ETL.prj, ETL/tags/ETL_0_04_10/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10/ETL/_random.h,
+	ETL/tags/ETL_0_04_10/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10/ETL/_status.h,
+	ETL/tags/ETL_0_04_10/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10/ETL/_value.h, ETL/tags/ETL_0_04_10/ETL/angle,
+	ETL/tags/ETL_0_04_10/ETL/bezier, ETL/tags/ETL_0_04_10/ETL/boxblur,
+	ETL/tags/ETL_0_04_10/ETL/calculus, ETL/tags/ETL_0_04_10/ETL/clock,
+	ETL/tags/ETL_0_04_10/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10/ETL/fastangle, ETL/tags/ETL_0_04_10/ETL/fixed,
+	ETL/tags/ETL_0_04_10/ETL/gaussian, ETL/tags/ETL_0_04_10/ETL/handle,
+	ETL/tags/ETL_0_04_10/ETL/hermite, ETL/tags/ETL_0_04_10/ETL/ipc,
+	ETL/tags/ETL_0_04_10/ETL/misc, ETL/tags/ETL_0_04_10/ETL/pen,
+	ETL/tags/ETL_0_04_10/ETL/random, ETL/tags/ETL_0_04_10/ETL/rect,
+	ETL/tags/ETL_0_04_10/ETL/ref_count, ETL/tags/ETL_0_04_10/ETL/smach,
+	ETL/tags/ETL_0_04_10/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10/ETL/spline, ETL/tags/ETL_0_04_10/ETL/status,
+	ETL/tags/ETL_0_04_10/ETL/stringf, ETL/tags/ETL_0_04_10/ETL/surface,
+	ETL/tags/ETL_0_04_10/ETL/thread, ETL/tags/ETL_0_04_10/ETL/trivial,
+	ETL/tags/ETL_0_04_10/ETL/value, ETL/tags/ETL_0_04_10/Makefile.am,
+	ETL/tags/ETL_0_04_10/NEWS, ETL/tags/ETL_0_04_10/README,
+	ETL/tags/ETL_0_04_10/bootstrap, ETL/tags/ETL_0_04_10/config/ETL.m4,
+	ETL/tags/ETL_0_04_10/config/build.cfg,
+	ETL/tags/ETL_0_04_10/config/configure.ac,
+	ETL/tags/ETL_0_04_10/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/License.rtf
+	,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/Welcome.rtf
+	,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/ETL_0_04_10/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10/config/project.spec.in,
+	ETL/tags/ETL_0_04_10/config/subs.m4,
+	ETL/tags/ETL_0_04_10/test/Makefile.am,
+	ETL/tags/ETL_0_04_10/test/angle.cpp,
+	ETL/tags/ETL_0_04_10/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10/test/clock.cpp,
+	ETL/tags/ETL_0_04_10/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10/test/handle.cpp,
+	ETL/tags/ETL_0_04_10/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10/test/pen.cpp,
+	ETL/tags/ETL_0_04_10/test/random.cpp,
+	ETL/tags/ETL_0_04_10/test/smach.cpp,
+	ETL/tags/ETL_0_04_10/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10/test/spline.cpp,
+	ETL/tags/ETL_0_04_10/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10/test/surface.cpp,
+	ETL/tags/ETL_0_04_10/test/value.cpp,
+	ETL/tags/ETL_0_04_10_rc1/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc1/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc1/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc1/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc1/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc1/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc1/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc1/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc1/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc1/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc1/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc1/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc1/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc1/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc1/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc1/ETL/random,
+	ETL/tags/ETL_0_04_10_rc1/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc1/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc1/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc1/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc1/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc1/ETL/status,
+	ETL/tags/ETL_0_04_10_rc1/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc1/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc1/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc1/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc1/ETL/value,
+	ETL/tags/ETL_0_04_10_rc1/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/NEWS, ETL/tags/ETL_0_04_10_rc1/README,
+	ETL/tags/ETL_0_04_10_rc1/bootstrap,
+	ETL/tags/ETL_0_04_10_rc1/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc1/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc1/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc1/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc1/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc1/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc1/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc1/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc1/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/value.cpp,
+	ETL/tags/ETL_0_04_10_rc2/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc2/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc2/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc2/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc2/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc2/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc2/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc2/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc2/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc2/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc2/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc2/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc2/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc2/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc2/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc2/ETL/random,
+	ETL/tags/ETL_0_04_10_rc2/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc2/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc2/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc2/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc2/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc2/ETL/status,
+	ETL/tags/ETL_0_04_10_rc2/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc2/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc2/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc2/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc2/ETL/value,
+	ETL/tags/ETL_0_04_10_rc2/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/NEWS, ETL/tags/ETL_0_04_10_rc2/README,
+	ETL/tags/ETL_0_04_10_rc2/bootstrap,
+	ETL/tags/ETL_0_04_10_rc2/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc2/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc2/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc2/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc2/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc2/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc2/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc2/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc2/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/value.cpp,
+	ETL/tags/ETL_0_04_10_rc3/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc3/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc3/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc3/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc3/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc3/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc3/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc3/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc3/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc3/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc3/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc3/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc3/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc3/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc3/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc3/ETL/random,
+	ETL/tags/ETL_0_04_10_rc3/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc3/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc3/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc3/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc3/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc3/ETL/status,
+	ETL/tags/ETL_0_04_10_rc3/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc3/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc3/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc3/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc3/ETL/value,
+	ETL/tags/ETL_0_04_10_rc3/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/NEWS, ETL/tags/ETL_0_04_10_rc3/README,
+	ETL/tags/ETL_0_04_10_rc3/bootstrap,
+	ETL/tags/ETL_0_04_10_rc3/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc3/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc3/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc3/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc3/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc3/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc3/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc3/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc3/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/value.cpp, ETL/tags/stable/AUTHORS,
+	ETL/tags/stable/ETL-config.in, ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.pc.in, ETL/tags/stable/ETL.prj,
+	ETL/tags/stable/ETL/Makefile.am, ETL/tags/stable/ETL/_angle.h,
+	ETL/tags/stable/ETL/_bezier.h, ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/mutex,
+	ETL/tags/stable/ETL/pen, ETL/tags/stable/ETL/random,
+	ETL/tags/stable/ETL/rect, ETL/tags/stable/ETL/ref_count,
+	ETL/tags/stable/ETL/smach, ETL/tags/stable/ETL/smart_ptr,
+	ETL/tags/stable/ETL/spline, ETL/tags/stable/ETL/status,
+	ETL/tags/stable/ETL/stringf, ETL/tags/stable/ETL/surface,
+	ETL/tags/stable/ETL/thread, ETL/tags/stable/ETL/trivial,
+	ETL/tags/stable/ETL/value, ETL/tags/stable/Makefile.am,
+	ETL/tags/stable/NEWS, ETL/tags/stable/README,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/configure.ac, ETL/tags/stable/doxygen.cfg.in,
+	ETL/tags/stable/m4/ETL.m4, ETL/tags/stable/m4/cxx_macros.m4,
+	ETL/tags/stable/m4/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Delete svn tags. We don't need them in git
+
+2009-06-12  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am, ETL/trunk/ETL/etl_config.h: Fix bugs in
+	previous commit that caused FTBFS in synfig and ETL FTBFS with older
+	automake.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2378
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-06-07  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pbproj/etl_profile.h, ETL/trunk/ETL.pc.in,
+	ETL/trunk/ETL/Makefile.am, ETL/trunk/ETL/_mutex_pthreads.h,
+	ETL/trunk/ETL/_stringf.h, ETL/trunk/ETL/_thread.h,
+	ETL/trunk/ETL/clock, ETL/trunk/ETL/etl_profile.h.in,
+	ETL/trunk/ETL/handle, ETL/trunk/ETL/mutex, ETL/trunk/Makefile.am,
+	ETL/trunk/configure.ac, ETL/trunk/m4/ETL.m4: Add some changes to
+	make ETL more suitable for Fedora: Generate etl_profile.h in a less hacky way.  Move the tests needed for generating etl_profile.h into the main
+	configuration file.  Move the etl_profile.h header to an arch-specific dir to prepare for
+	multi-arch.  Use less generic defines in the etl_profile.h header and prefix
+	private defines with a double underscore.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2377
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-06  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Prefer prototypes from glibc headers,
+	since defining them ourselves works around glibc security
+	mechanisms.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2373
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-06  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/Makefile.am: Fix make distcheck breakage introduced
+	by the Makefile.am reformatting.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2372
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-05  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/etl_config.h: Drop unused definition of
+	ETL_BIGENDIAN git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2371
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-05  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac, ETL/trunk/m4/ETL.m4: Remove some autoconf
+	checks that have unused results git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2370
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-04  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/angle, ETL/trunk/ETL/bezier, ETL/trunk/ETL/boxblur,
+	ETL/trunk/ETL/calculus, ETL/trunk/ETL/clock,
+	ETL/trunk/ETL/fastangle, ETL/trunk/ETL/fixed,
+	ETL/trunk/ETL/gaussian, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/hermite, ETL/trunk/ETL/ipc, ETL/trunk/ETL/misc,
+	ETL/trunk/ETL/mutex, ETL/trunk/ETL/pen, ETL/trunk/ETL/random,
+	ETL/trunk/ETL/rect, ETL/trunk/ETL/ref_count, ETL/trunk/ETL/smach,
+	ETL/trunk/ETL/smart_ptr, ETL/trunk/ETL/spline,
+	ETL/trunk/ETL/status, ETL/trunk/ETL/stringf, ETL/trunk/ETL/surface,
+	ETL/trunk/ETL/thread, ETL/trunk/ETL/trivial, ETL/trunk/ETL/value: 
+	Use less generic names for the guards for the ETL public headers git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2367
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-04  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Include stdio from the right section of
+	_angle.h and use the C++ version git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2366
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-05-04  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h, ETL/trunk/ETL/_bezier.h,
+	ETL/trunk/ETL/_bezier_angle.h, ETL/trunk/ETL/_bit_rotate.h,
+	ETL/trunk/ETL/_boxblur.h, ETL/trunk/ETL/_curve.h,
+	ETL/trunk/ETL/_fastangle.h, ETL/trunk/ETL/_gaussian.h,
+	ETL/trunk/ETL/_hermite.h, ETL/trunk/ETL/_pen.h,
+	ETL/trunk/ETL/_rect.h, ETL/trunk/ETL/_ref_count.h,
+	ETL/trunk/ETL/_status.h, ETL/trunk/ETL/_trivial.h,
+	ETL/trunk/ETL/_value.h: Make the names for the guards for ETL
+	private headers consistent WRT the number of underscores after ETL git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2365
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2009-04-12  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am, ETL/trunk/Makefile.am,
+	ETL/trunk/test/Makefile.am: Reformat and clean up the automake files git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2358
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-12-22  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h, ETL/trunk/ETL/clock,
+	ETL/trunk/ETL/ref_count: Remove spaces and tabs at end of lines.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2317
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-25  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/handle.cpp, ETL/trunk/test/smart_ptr.cpp: Fix
+	spelling mistake.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2265
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-23  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/handle.cpp: Add tests for handle::swap() and
+	loose_handle::swap().  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2259
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-23  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Fix handle<T>::swap() and
+	loose_handle<T>::swap().  I guess the code must not be used, because
+	it has never worked.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2258
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-13  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/pen.cpp, ETL/trunk/test/surface.cpp: Silence a
+	couple of g++ 4.4 warnings in ETL make check git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2192
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-13  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/Makefile.am: Fix the header include paths for ETL
+	make check git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2191
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-12  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Stop a bunch of compile warnings about
+	not used returned value from vasprintf function in _string.h file.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2190
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-08  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/handle: Don't enable the use of mutexes on platforms
+	other than Windows unless pthread is available.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2169
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-08  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/m4/ETL.m4: Fix the pthread and kernel32 library checks
+	to not check for main. The checks fail on GCC 4.4 otherwise.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2168
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-07  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h: Finding the distance along a bezier curve
+	from point x to point x was failing with a division by zero.  Fix by
+	always returning 0 in that case.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2163
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-06  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_pen.h: Don't ignore type qualifiers on a couple of
+	ETL pen functions, fixes a couple of GCC warnings.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2156
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-04  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h: Improve the rendering of curvegradient
+	layers near vertices with zero-length tangents.  See
+	http://dooglus.rincevent.net/random/arrow-old.png ,
+	http://dooglus.rincevent.net/random/arrow-new.png ,
+	http://dooglus.rincevent.net/random/arrow.sifz for an example of the
+	various types of glitch that have been fixed in this revision.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2148
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-11-03  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/etl_profile_.h.in: Delete generated
+	ETL/etl_profile_.h.in file git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2144
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/0.04.12/AUTHORS, ETL/tags/0.04.12/ETL-config.in,
+	ETL/tags/0.04.12/ETL.kdevprj,
+	ETL/tags/0.04.12/ETL.pbproj/darco.mode1,
+	ETL/tags/0.04.12/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.04.12/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.04.12/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.04.12/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.04.12/ETL.pc.in, ETL/tags/0.04.12/ETL.prj,
+	ETL/tags/0.04.12/ETL/Makefile.am, ETL/tags/0.04.12/ETL/_angle.h,
+	ETL/tags/0.04.12/ETL/_bezier.h,
+	ETL/tags/0.04.12/ETL/_bezier_angle.h,
+	ETL/tags/0.04.12/ETL/_bit_rotate.h,
+	ETL/tags/0.04.12/ETL/_boxblur.h, ETL/tags/0.04.12/ETL/_bspline.h,
+	ETL/tags/0.04.12/ETL/_calculus.h,
+	ETL/tags/0.04.12/ETL/_clock_base.h,
+	ETL/tags/0.04.12/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.04.12/ETL/_clock_system.h,
+	ETL/tags/0.04.12/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.04.12/ETL/_condition.h, ETL/tags/0.04.12/ETL/_curve.h,
+	ETL/tags/0.04.12/ETL/_curve_func.h,
+	ETL/tags/0.04.12/ETL/_fastangle.h,
+	ETL/tags/0.04.12/ETL/_fastangle_tables.h,
+	ETL/tags/0.04.12/ETL/_fixed.h, ETL/tags/0.04.12/ETL/_gaussian.h,
+	ETL/tags/0.04.12/ETL/_handle.h, ETL/tags/0.04.12/ETL/_hermite.h,
+	ETL/tags/0.04.12/ETL/_misc.h, ETL/tags/0.04.12/ETL/_mutex_null.h,
+	ETL/tags/0.04.12/ETL/_mutex_pthreads.h,
+	ETL/tags/0.04.12/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.04.12/ETL/_mutex_win32.h, ETL/tags/0.04.12/ETL/_pen.h,
+	ETL/tags/0.04.12/ETL/_random.h, ETL/tags/0.04.12/ETL/_rect.h,
+	ETL/tags/0.04.12/ETL/_ref_count.h, ETL/tags/0.04.12/ETL/_rwlock.h,
+	ETL/tags/0.04.12/ETL/_smach.h, ETL/tags/0.04.12/ETL/_smart_ptr.h,
+	ETL/tags/0.04.12/ETL/_status.h, ETL/tags/0.04.12/ETL/_stringf.h,
+	ETL/tags/0.04.12/ETL/_surface.h, ETL/tags/0.04.12/ETL/_thread.h,
+	ETL/tags/0.04.12/ETL/_trivial.h, ETL/tags/0.04.12/ETL/_value.h,
+	ETL/tags/0.04.12/ETL/angle, ETL/tags/0.04.12/ETL/bezier,
+	ETL/tags/0.04.12/ETL/boxblur, ETL/tags/0.04.12/ETL/calculus,
+	ETL/tags/0.04.12/ETL/clock, ETL/tags/0.04.12/ETL/etl_config.h,
+	ETL/tags/0.04.12/ETL/etl_profile_.h.in,
+	ETL/tags/0.04.12/ETL/fastangle, ETL/tags/0.04.12/ETL/fixed,
+	ETL/tags/0.04.12/ETL/gaussian, ETL/tags/0.04.12/ETL/handle,
+	ETL/tags/0.04.12/ETL/hermite, ETL/tags/0.04.12/ETL/ipc,
+	ETL/tags/0.04.12/ETL/misc, ETL/tags/0.04.12/ETL/mutex,
+	ETL/tags/0.04.12/ETL/pen, ETL/tags/0.04.12/ETL/random,
+	ETL/tags/0.04.12/ETL/rect, ETL/tags/0.04.12/ETL/ref_count,
+	ETL/tags/0.04.12/ETL/smach, ETL/tags/0.04.12/ETL/smart_ptr,
+	ETL/tags/0.04.12/ETL/spline, ETL/tags/0.04.12/ETL/status,
+	ETL/tags/0.04.12/ETL/stringf, ETL/tags/0.04.12/ETL/surface,
+	ETL/tags/0.04.12/ETL/thread, ETL/tags/0.04.12/ETL/trivial,
+	ETL/tags/0.04.12/ETL/value, ETL/tags/0.04.12/Makefile.am,
+	ETL/tags/0.04.12/NEWS, ETL/tags/0.04.12/README,
+	ETL/tags/0.04.12/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.04.12/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.04.12/configure.ac, ETL/tags/0.04.12/doxygen.cfg.in,
+	ETL/tags/0.04.12/m4/ETL.m4, ETL/tags/0.04.12/m4/cxx_macros.m4,
+	ETL/tags/0.04.12/m4/subs.m4, ETL/tags/0.04.12/test/Makefile.am,
+	ETL/tags/0.04.12/test/angle.cpp,
+	ETL/tags/0.04.12/test/benchmark.cpp,
+	ETL/tags/0.04.12/test/clock.cpp, ETL/tags/0.04.12/test/fixed.cpp,
+	ETL/tags/0.04.12/test/handle.cpp,
+	ETL/tags/0.04.12/test/hermite.cpp, ETL/tags/0.04.12/test/pen.cpp,
+	ETL/tags/0.04.12/test/random.cpp, ETL/tags/0.04.12/test/smach.cpp,
+	ETL/tags/0.04.12/test/smart_ptr.cpp,
+	ETL/tags/0.04.12/test/spline.cpp,
+	ETL/tags/0.04.12/test/stringf.cpp,
+	ETL/tags/0.04.12/test/surface.cpp, ETL/tags/0.04.12/test/value.cpp: 
+	Release 0.04.12 git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2127
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/AUTHORS,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL-config.i
+	n,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.kdevprj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/d
+	arco.mode1,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/d
+	arco.pbxuser,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/e
+	tl_profile.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/f
+	rameworkfix.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/p
+	roject.pbxproj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pc.in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.prj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/Makefile
+	.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_angle.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bezier.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bezier_
+	angle.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bit_rot
+	ate.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_boxblur
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bspline
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_calculu
+	s.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_b
+	ase.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_g
+	ettimeofday.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_s
+	ystem.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_w
+	in32hpcount.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_conditi
+	on.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_curve.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_curve_f
+	unc.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fastang
+	le.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fastang
+	le_tables.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fixed.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_gaussia
+	n.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_handle.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_hermite
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_misc.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_n
+	ull.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_p
+	threads.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_p
+	threads_simple.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_w
+	in32.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_pen.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_random.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_rect.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_ref_cou
+	nt.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_rwlock.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_smach.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_smart_p
+	tr.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_status.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_stringf
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_surface
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_thread.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_trivial
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_value.h
+	, ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/angle,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/bezier,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/boxblur,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/calculus
+	, ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/clock,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/etl_conf
+	ig.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/etl_prof
+	ile_.h.in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/fastangl
+	e,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/fixed,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/gaussian
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/handle,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/hermite,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/ipc,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/misc,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/mutex,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/pen,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/random,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/rect,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/ref_coun
+	t,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/smach,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/smart_pt
+	r,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/spline,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/status,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/stringf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/surface,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/thread,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/trivial,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/value,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/Makefile.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/NEWS,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/README,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/ETL-devel.info,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/License.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/Welcome.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/install.sh,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/configure.ac
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/doxygen.cfg.
+	in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/ETL.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/cxx_macro
+	s.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/subs.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/Makefil
+	e.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/angle.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/benchma
+	rk.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/clock.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/fixed.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/handle.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/hermite
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/pen.cpp
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/random.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/smach.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/smart_p
+	tr.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/spline.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/stringf
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/surface
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/value.c
+	pp: Remove bad tag git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2124
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/AUTHORS,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL-config.i
+	n,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.kdevprj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/d
+	arco.mode1,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/d
+	arco.pbxuser,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/e
+	tl_profile.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/f
+	rameworkfix.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pbproj/p
+	roject.pbxproj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.pc.in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL.prj,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/Makefile
+	.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_angle.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bezier.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bezier_
+	angle.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bit_rot
+	ate.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_boxblur
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_bspline
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_calculu
+	s.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_b
+	ase.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_g
+	ettimeofday.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_s
+	ystem.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_clock_w
+	in32hpcount.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_conditi
+	on.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_curve.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_curve_f
+	unc.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fastang
+	le.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fastang
+	le_tables.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_fixed.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_gaussia
+	n.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_handle.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_hermite
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_misc.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_n
+	ull.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_p
+	threads.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_p
+	threads_simple.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_mutex_w
+	in32.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_pen.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_random.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_rect.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_ref_cou
+	nt.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_rwlock.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_smach.h
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_smart_p
+	tr.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_status.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_stringf
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_surface
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_thread.
+	h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_trivial
+	.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/_value.h
+	, ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/angle,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/bezier,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/boxblur,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/calculus
+	, ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/clock,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/etl_conf
+	ig.h,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/etl_prof
+	ile_.h.in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/fastangl
+	e,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/fixed,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/gaussian
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/handle,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/hermite,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/ipc,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/misc,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/mutex,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/pen,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/random,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/rect,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/ref_coun
+	t,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/smach,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/smart_pt
+	r,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/spline,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/status,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/stringf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/surface,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/thread,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/trivial,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/ETL/value,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/Makefile.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/NEWS,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/README,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/ETL-devel.info,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/License.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/Welcome.rtf,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/config/pkg-s
+	upport/devel-resources/install.sh,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/configure.ac
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/doxygen.cfg.
+	in,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/ETL.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/cxx_macro
+	s.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/m4/subs.m4,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/Makefil
+	e.am,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/angle.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/benchma
+	rk.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/clock.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/fixed.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/handle.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/hermite
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/pen.cpp
+	,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/random.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/smach.c
+	pp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/smart_p
+	tr.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/spline.
+	cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/stringf
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/surface
+	.cpp,
+	ETL/tags/ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@/test/value.c
+	pp: Release ETL_@VERSION_MAJ@_@VERSION_MIN@_@VERSION_REV@ git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2117
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.pc.in, ETL/tags/stable/ETL.prj,
+	ETL/tags/stable/ETL/Makefile.am, ETL/tags/stable/ETL/_angle.h,
+	ETL/tags/stable/ETL/_bezier.h, ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/mutex,
+	ETL/tags/stable/ETL/pen, ETL/tags/stable/ETL/random,
+	ETL/tags/stable/ETL/rect, ETL/tags/stable/ETL/ref_count,
+	ETL/tags/stable/ETL/smach, ETL/tags/stable/ETL/smart_ptr,
+	ETL/tags/stable/ETL/spline, ETL/tags/stable/ETL/status,
+	ETL/tags/stable/ETL/stringf, ETL/tags/stable/ETL/surface,
+	ETL/tags/stable/ETL/thread, ETL/tags/stable/ETL/trivial,
+	ETL/tags/stable/ETL/value, ETL/tags/stable/Makefile.am,
+	ETL/tags/stable/NEWS, ETL/tags/stable/README,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/configure.ac, ETL/tags/stable/doxygen.cfg.in,
+	ETL/tags/stable/m4/ETL.m4, ETL/tags/stable/m4/cxx_macros.m4,
+	ETL/tags/stable/m4/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Copying everything over git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2116
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.pc.in, ETL/tags/stable/ETL.prj,
+	ETL/tags/stable/ETL/Makefile.am, ETL/tags/stable/ETL/_angle.h,
+	ETL/tags/stable/ETL/_bezier.h, ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/mutex,
+	ETL/tags/stable/ETL/pen, ETL/tags/stable/ETL/random,
+	ETL/tags/stable/ETL/rect, ETL/tags/stable/ETL/ref_count,
+	ETL/tags/stable/ETL/smach, ETL/tags/stable/ETL/smart_ptr,
+	ETL/tags/stable/ETL/spline, ETL/tags/stable/ETL/status,
+	ETL/tags/stable/ETL/stringf, ETL/tags/stable/ETL/surface,
+	ETL/tags/stable/ETL/thread, ETL/tags/stable/ETL/trivial,
+	ETL/tags/stable/ETL/value, ETL/tags/stable/Makefile.am,
+	ETL/tags/stable/NEWS, ETL/tags/stable/README,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/configure.ac, ETL/tags/stable/doxygen.cfg.in,
+	ETL/tags/stable/m4/ETL.m4, ETL/tags/stable/m4/cxx_macros.m4,
+	ETL/tags/stable/m4/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Removing old tag git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2115
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Release of etl 0.04.12 version. ***** git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2112
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-21  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Formal Release of etl 0.04.12 git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2111
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-17  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac: Update SVN_REPOSITORY variable to the new
+	svn in sourceforge git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2104
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-14  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS, ETL/trunk/configure.ac: Release 0.04.12! git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2099
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-14  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_calculus.h, ETL/trunk/README: Update/add copyright
+	of people who modified the code.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2097
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-10  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Polish NEWS file for 0.61.09 release git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2089
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-10-09  genete <genete@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Updated towards 0.61.09 release git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2085
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-09-10  pabs3 <pabs3@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Switch to using the source code page instead of
+	raw SVN URLs.  git-svn-id: https://synfig.svn.sourceforge.net/svnroot/synfig@2040
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-31  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/m4/subs.m4: Remove -Wno-deprecated since it is no longer
+	needed and just causes extra warnings when compiling C code.  git-svn-id: http://svn.voria.com/code@1950
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac: Update configure.ac as suggested by
+	autoupdate.  git-svn-id: http://svn.voria.com/code@1916
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Update my copyright.  git-svn-id: http://svn.voria.com/code@1890
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Update my copyright.  git-svn-id: http://svn.voria.com/code@1889
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-08  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac: Woops, used the wrong version number in
+	the last release, luckily pkg-config treats it the same as the real
+	one git-svn-id: http://svn.voria.com/code@1887
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-08  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/configure.ac: Release a new version with a
+	corrected version number git-svn-id: http://svn.voria.com/code@1886
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-05  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_curve_func.h: Added a couple of comments.  git-svn-id: http://svn.voria.com/code@1859
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-04  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_calculus.h: Improve the derivative class for
+	hermites.  Compare
+	http://synfig.org/images/a/a8/Bline-tangent-inaccuracy-before.png
+	and
+	http://synfig.org/images/a/a7/Bline-tangent-inaccuracy-after.png,
+	the results of rendering
+	http://synfig.org/images/b/bd/Bline-tangent-inaccuracy.sifz .  git-svn-id: http://svn.voria.com/code@1857
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_calculus.h: Remove the ETL_FIXED_DERIVATIVE macro.  git-svn-id: http://svn.voria.com/code@1853
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Fix indentation.  git-svn-id: http://svn.voria.com/code@1852
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/0.4.11/AUTHORS, ETL/tags/0.4.11/ETL-config.in,
+	ETL/tags/0.4.11/ETL.kdevprj,
+	ETL/tags/0.4.11/ETL.pbproj/darco.mode1,
+	ETL/tags/0.4.11/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.4.11/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.4.11/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.4.11/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.4.11/ETL.pc.in, ETL/tags/0.4.11/ETL.prj,
+	ETL/tags/0.4.11/ETL/Makefile.am, ETL/tags/0.4.11/ETL/_angle.h,
+	ETL/tags/0.4.11/ETL/_bezier.h, ETL/tags/0.4.11/ETL/_bezier_angle.h,
+	ETL/tags/0.4.11/ETL/_bit_rotate.h, ETL/tags/0.4.11/ETL/_boxblur.h,
+	ETL/tags/0.4.11/ETL/_bspline.h, ETL/tags/0.4.11/ETL/_calculus.h,
+	ETL/tags/0.4.11/ETL/_clock_base.h,
+	ETL/tags/0.4.11/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.4.11/ETL/_clock_system.h,
+	ETL/tags/0.4.11/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.4.11/ETL/_condition.h, ETL/tags/0.4.11/ETL/_curve.h,
+	ETL/tags/0.4.11/ETL/_curve_func.h,
+	ETL/tags/0.4.11/ETL/_fastangle.h,
+	ETL/tags/0.4.11/ETL/_fastangle_tables.h,
+	ETL/tags/0.4.11/ETL/_fixed.h, ETL/tags/0.4.11/ETL/_gaussian.h,
+	ETL/tags/0.4.11/ETL/_handle.h, ETL/tags/0.4.11/ETL/_hermite.h,
+	ETL/tags/0.4.11/ETL/_misc.h, ETL/tags/0.4.11/ETL/_mutex_null.h,
+	ETL/tags/0.4.11/ETL/_mutex_pthreads.h,
+	ETL/tags/0.4.11/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.4.11/ETL/_mutex_win32.h, ETL/tags/0.4.11/ETL/_pen.h,
+	ETL/tags/0.4.11/ETL/_random.h, ETL/tags/0.4.11/ETL/_rect.h,
+	ETL/tags/0.4.11/ETL/_ref_count.h, ETL/tags/0.4.11/ETL/_rwlock.h,
+	ETL/tags/0.4.11/ETL/_smach.h, ETL/tags/0.4.11/ETL/_smart_ptr.h,
+	ETL/tags/0.4.11/ETL/_status.h, ETL/tags/0.4.11/ETL/_stringf.h,
+	ETL/tags/0.4.11/ETL/_surface.h, ETL/tags/0.4.11/ETL/_thread.h,
+	ETL/tags/0.4.11/ETL/_trivial.h, ETL/tags/0.4.11/ETL/_value.h,
+	ETL/tags/0.4.11/ETL/angle, ETL/tags/0.4.11/ETL/bezier,
+	ETL/tags/0.4.11/ETL/boxblur, ETL/tags/0.4.11/ETL/calculus,
+	ETL/tags/0.4.11/ETL/clock, ETL/tags/0.4.11/ETL/etl_config.h,
+	ETL/tags/0.4.11/ETL/etl_profile_.h.in,
+	ETL/tags/0.4.11/ETL/fastangle, ETL/tags/0.4.11/ETL/fixed,
+	ETL/tags/0.4.11/ETL/gaussian, ETL/tags/0.4.11/ETL/handle,
+	ETL/tags/0.4.11/ETL/hermite, ETL/tags/0.4.11/ETL/ipc,
+	ETL/tags/0.4.11/ETL/misc, ETL/tags/0.4.11/ETL/mutex,
+	ETL/tags/0.4.11/ETL/pen, ETL/tags/0.4.11/ETL/random,
+	ETL/tags/0.4.11/ETL/rect, ETL/tags/0.4.11/ETL/ref_count,
+	ETL/tags/0.4.11/ETL/smach, ETL/tags/0.4.11/ETL/smart_ptr,
+	ETL/tags/0.4.11/ETL/spline, ETL/tags/0.4.11/ETL/status,
+	ETL/tags/0.4.11/ETL/stringf, ETL/tags/0.4.11/ETL/surface,
+	ETL/tags/0.4.11/ETL/thread, ETL/tags/0.4.11/ETL/trivial,
+	ETL/tags/0.4.11/ETL/value, ETL/tags/0.4.11/Makefile.am,
+	ETL/tags/0.4.11/NEWS, ETL/tags/0.4.11/README,
+	ETL/tags/0.4.11/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.4.11/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.4.11/configure.ac, ETL/tags/0.4.11/doxygen.cfg.in,
+	ETL/tags/0.4.11/m4/ETL.m4, ETL/tags/0.4.11/m4/cxx_macros.m4,
+	ETL/tags/0.4.11/m4/subs.m4, ETL/tags/0.4.11/test/Makefile.am,
+	ETL/tags/0.4.11/test/angle.cpp, ETL/tags/0.4.11/test/benchmark.cpp,
+	ETL/tags/0.4.11/test/clock.cpp, ETL/tags/0.4.11/test/fixed.cpp,
+	ETL/tags/0.4.11/test/handle.cpp, ETL/tags/0.4.11/test/hermite.cpp,
+	ETL/tags/0.4.11/test/pen.cpp, ETL/tags/0.4.11/test/random.cpp,
+	ETL/tags/0.4.11/test/smach.cpp, ETL/tags/0.4.11/test/smart_ptr.cpp,
+	ETL/tags/0.4.11/test/spline.cpp, ETL/tags/0.4.11/test/stringf.cpp,
+	ETL/tags/0.4.11/test/surface.cpp, ETL/tags/0.4.11/test/value.cpp: 
+	Release 0.4.11 git-svn-id: http://svn.voria.com/code@1845
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/0.61.06/AUTHORS, ETL/tags/0.61.06/ETL-config.in,
+	ETL/tags/0.61.06/ETL.kdevprj,
+	ETL/tags/0.61.06/ETL.pbproj/darco.mode1,
+	ETL/tags/0.61.06/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.61.06/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.61.06/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.61.06/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.61.06/ETL.pc.in, ETL/tags/0.61.06/ETL.prj,
+	ETL/tags/0.61.06/ETL/Makefile.am, ETL/tags/0.61.06/ETL/_angle.h,
+	ETL/tags/0.61.06/ETL/_bezier.h,
+	ETL/tags/0.61.06/ETL/_bezier_angle.h,
+	ETL/tags/0.61.06/ETL/_bit_rotate.h,
+	ETL/tags/0.61.06/ETL/_boxblur.h, ETL/tags/0.61.06/ETL/_bspline.h,
+	ETL/tags/0.61.06/ETL/_calculus.h,
+	ETL/tags/0.61.06/ETL/_clock_base.h,
+	ETL/tags/0.61.06/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.61.06/ETL/_clock_system.h,
+	ETL/tags/0.61.06/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.61.06/ETL/_condition.h, ETL/tags/0.61.06/ETL/_curve.h,
+	ETL/tags/0.61.06/ETL/_curve_func.h,
+	ETL/tags/0.61.06/ETL/_fastangle.h,
+	ETL/tags/0.61.06/ETL/_fastangle_tables.h,
+	ETL/tags/0.61.06/ETL/_fixed.h, ETL/tags/0.61.06/ETL/_gaussian.h,
+	ETL/tags/0.61.06/ETL/_handle.h, ETL/tags/0.61.06/ETL/_hermite.h,
+	ETL/tags/0.61.06/ETL/_misc.h, ETL/tags/0.61.06/ETL/_mutex_null.h,
+	ETL/tags/0.61.06/ETL/_mutex_pthreads.h,
+	ETL/tags/0.61.06/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.61.06/ETL/_mutex_win32.h, ETL/tags/0.61.06/ETL/_pen.h,
+	ETL/tags/0.61.06/ETL/_random.h, ETL/tags/0.61.06/ETL/_rect.h,
+	ETL/tags/0.61.06/ETL/_ref_count.h, ETL/tags/0.61.06/ETL/_rwlock.h,
+	ETL/tags/0.61.06/ETL/_smach.h, ETL/tags/0.61.06/ETL/_smart_ptr.h,
+	ETL/tags/0.61.06/ETL/_status.h, ETL/tags/0.61.06/ETL/_stringf.h,
+	ETL/tags/0.61.06/ETL/_surface.h, ETL/tags/0.61.06/ETL/_thread.h,
+	ETL/tags/0.61.06/ETL/_trivial.h, ETL/tags/0.61.06/ETL/_value.h,
+	ETL/tags/0.61.06/ETL/angle, ETL/tags/0.61.06/ETL/bezier,
+	ETL/tags/0.61.06/ETL/boxblur, ETL/tags/0.61.06/ETL/calculus,
+	ETL/tags/0.61.06/ETL/clock, ETL/tags/0.61.06/ETL/etl_config.h,
+	ETL/tags/0.61.06/ETL/etl_profile_.h.in,
+	ETL/tags/0.61.06/ETL/fastangle, ETL/tags/0.61.06/ETL/fixed,
+	ETL/tags/0.61.06/ETL/gaussian, ETL/tags/0.61.06/ETL/handle,
+	ETL/tags/0.61.06/ETL/hermite, ETL/tags/0.61.06/ETL/ipc,
+	ETL/tags/0.61.06/ETL/misc, ETL/tags/0.61.06/ETL/mutex,
+	ETL/tags/0.61.06/ETL/pen, ETL/tags/0.61.06/ETL/random,
+	ETL/tags/0.61.06/ETL/rect, ETL/tags/0.61.06/ETL/ref_count,
+	ETL/tags/0.61.06/ETL/smach, ETL/tags/0.61.06/ETL/smart_ptr,
+	ETL/tags/0.61.06/ETL/spline, ETL/tags/0.61.06/ETL/status,
+	ETL/tags/0.61.06/ETL/stringf, ETL/tags/0.61.06/ETL/surface,
+	ETL/tags/0.61.06/ETL/thread, ETL/tags/0.61.06/ETL/trivial,
+	ETL/tags/0.61.06/ETL/value, ETL/tags/0.61.06/Makefile.am,
+	ETL/tags/0.61.06/NEWS, ETL/tags/0.61.06/README,
+	ETL/tags/0.61.06/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.61.06/configure.ac, ETL/tags/0.61.06/doxygen.cfg.in,
+	ETL/tags/0.61.06/m4/ETL.m4, ETL/tags/0.61.06/m4/cxx_macros.m4,
+	ETL/tags/0.61.06/m4/subs.m4, ETL/tags/0.61.06/test/Makefile.am,
+	ETL/tags/0.61.06/test/angle.cpp,
+	ETL/tags/0.61.06/test/benchmark.cpp,
+	ETL/tags/0.61.06/test/clock.cpp, ETL/tags/0.61.06/test/fixed.cpp,
+	ETL/tags/0.61.06/test/handle.cpp,
+	ETL/tags/0.61.06/test/hermite.cpp, ETL/tags/0.61.06/test/pen.cpp,
+	ETL/tags/0.61.06/test/random.cpp, ETL/tags/0.61.06/test/smach.cpp,
+	ETL/tags/0.61.06/test/smart_ptr.cpp,
+	ETL/tags/0.61.06/test/spline.cpp,
+	ETL/tags/0.61.06/test/stringf.cpp,
+	ETL/tags/0.61.06/test/surface.cpp, ETL/tags/0.61.06/test/value.cpp: 
+	Release: Removing incorrect tag git-svn-id: http://svn.voria.com/code@1844
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/0.61.06/AUTHORS, ETL/tags/0.61.06/ETL-config.in,
+	ETL/tags/0.61.06/ETL.kdevprj,
+	ETL/tags/0.61.06/ETL.pbproj/darco.mode1,
+	ETL/tags/0.61.06/ETL.pbproj/darco.pbxuser,
+	ETL/tags/0.61.06/ETL.pbproj/etl_profile.h,
+	ETL/tags/0.61.06/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/0.61.06/ETL.pbproj/project.pbxproj,
+	ETL/tags/0.61.06/ETL.pc.in, ETL/tags/0.61.06/ETL.prj,
+	ETL/tags/0.61.06/ETL/Makefile.am, ETL/tags/0.61.06/ETL/_angle.h,
+	ETL/tags/0.61.06/ETL/_bezier.h,
+	ETL/tags/0.61.06/ETL/_bezier_angle.h,
+	ETL/tags/0.61.06/ETL/_bit_rotate.h,
+	ETL/tags/0.61.06/ETL/_boxblur.h, ETL/tags/0.61.06/ETL/_bspline.h,
+	ETL/tags/0.61.06/ETL/_calculus.h,
+	ETL/tags/0.61.06/ETL/_clock_base.h,
+	ETL/tags/0.61.06/ETL/_clock_gettimeofday.h,
+	ETL/tags/0.61.06/ETL/_clock_system.h,
+	ETL/tags/0.61.06/ETL/_clock_win32hpcount.h,
+	ETL/tags/0.61.06/ETL/_condition.h, ETL/tags/0.61.06/ETL/_curve.h,
+	ETL/tags/0.61.06/ETL/_curve_func.h,
+	ETL/tags/0.61.06/ETL/_fastangle.h,
+	ETL/tags/0.61.06/ETL/_fastangle_tables.h,
+	ETL/tags/0.61.06/ETL/_fixed.h, ETL/tags/0.61.06/ETL/_gaussian.h,
+	ETL/tags/0.61.06/ETL/_handle.h, ETL/tags/0.61.06/ETL/_hermite.h,
+	ETL/tags/0.61.06/ETL/_misc.h, ETL/tags/0.61.06/ETL/_mutex_null.h,
+	ETL/tags/0.61.06/ETL/_mutex_pthreads.h,
+	ETL/tags/0.61.06/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/0.61.06/ETL/_mutex_win32.h, ETL/tags/0.61.06/ETL/_pen.h,
+	ETL/tags/0.61.06/ETL/_random.h, ETL/tags/0.61.06/ETL/_rect.h,
+	ETL/tags/0.61.06/ETL/_ref_count.h, ETL/tags/0.61.06/ETL/_rwlock.h,
+	ETL/tags/0.61.06/ETL/_smach.h, ETL/tags/0.61.06/ETL/_smart_ptr.h,
+	ETL/tags/0.61.06/ETL/_status.h, ETL/tags/0.61.06/ETL/_stringf.h,
+	ETL/tags/0.61.06/ETL/_surface.h, ETL/tags/0.61.06/ETL/_thread.h,
+	ETL/tags/0.61.06/ETL/_trivial.h, ETL/tags/0.61.06/ETL/_value.h,
+	ETL/tags/0.61.06/ETL/angle, ETL/tags/0.61.06/ETL/bezier,
+	ETL/tags/0.61.06/ETL/boxblur, ETL/tags/0.61.06/ETL/calculus,
+	ETL/tags/0.61.06/ETL/clock, ETL/tags/0.61.06/ETL/etl_config.h,
+	ETL/tags/0.61.06/ETL/etl_profile_.h.in,
+	ETL/tags/0.61.06/ETL/fastangle, ETL/tags/0.61.06/ETL/fixed,
+	ETL/tags/0.61.06/ETL/gaussian, ETL/tags/0.61.06/ETL/handle,
+	ETL/tags/0.61.06/ETL/hermite, ETL/tags/0.61.06/ETL/ipc,
+	ETL/tags/0.61.06/ETL/misc, ETL/tags/0.61.06/ETL/mutex,
+	ETL/tags/0.61.06/ETL/pen, ETL/tags/0.61.06/ETL/random,
+	ETL/tags/0.61.06/ETL/rect, ETL/tags/0.61.06/ETL/ref_count,
+	ETL/tags/0.61.06/ETL/smach, ETL/tags/0.61.06/ETL/smart_ptr,
+	ETL/tags/0.61.06/ETL/spline, ETL/tags/0.61.06/ETL/status,
+	ETL/tags/0.61.06/ETL/stringf, ETL/tags/0.61.06/ETL/surface,
+	ETL/tags/0.61.06/ETL/thread, ETL/tags/0.61.06/ETL/trivial,
+	ETL/tags/0.61.06/ETL/value, ETL/tags/0.61.06/Makefile.am,
+	ETL/tags/0.61.06/NEWS, ETL/tags/0.61.06/README,
+	ETL/tags/0.61.06/config/pkg-support/ETL-devel.info,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/0.61.06/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/0.61.06/configure.ac, ETL/tags/0.61.06/doxygen.cfg.in,
+	ETL/tags/0.61.06/m4/ETL.m4, ETL/tags/0.61.06/m4/cxx_macros.m4,
+	ETL/tags/0.61.06/m4/subs.m4, ETL/tags/0.61.06/test/Makefile.am,
+	ETL/tags/0.61.06/test/angle.cpp,
+	ETL/tags/0.61.06/test/benchmark.cpp,
+	ETL/tags/0.61.06/test/clock.cpp, ETL/tags/0.61.06/test/fixed.cpp,
+	ETL/tags/0.61.06/test/handle.cpp,
+	ETL/tags/0.61.06/test/hermite.cpp, ETL/tags/0.61.06/test/pen.cpp,
+	ETL/tags/0.61.06/test/random.cpp, ETL/tags/0.61.06/test/smach.cpp,
+	ETL/tags/0.61.06/test/smart_ptr.cpp,
+	ETL/tags/0.61.06/test/spline.cpp,
+	ETL/tags/0.61.06/test/stringf.cpp,
+	ETL/tags/0.61.06/test/surface.cpp, ETL/tags/0.61.06/test/value.cpp: 
+	Release 0.61.08 git-svn-id: http://svn.voria.com/code@1842
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.pc.in, ETL/tags/stable/ETL.prj,
+	ETL/tags/stable/ETL/Makefile.am, ETL/tags/stable/ETL/_angle.h,
+	ETL/tags/stable/ETL/_bezier.h, ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_pthreads_simple.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/mutex,
+	ETL/tags/stable/ETL/pen, ETL/tags/stable/ETL/random,
+	ETL/tags/stable/ETL/rect, ETL/tags/stable/ETL/ref_count,
+	ETL/tags/stable/ETL/smach, ETL/tags/stable/ETL/smart_ptr,
+	ETL/tags/stable/ETL/spline, ETL/tags/stable/ETL/status,
+	ETL/tags/stable/ETL/stringf, ETL/tags/stable/ETL/surface,
+	ETL/tags/stable/ETL/thread, ETL/tags/stable/ETL/trivial,
+	ETL/tags/stable/ETL/value, ETL/tags/stable/Makefile.am,
+	ETL/tags/stable/NEWS, ETL/tags/stable/README,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/configure.ac, ETL/tags/stable/doxygen.cfg.in,
+	ETL/tags/stable/m4/ETL.m4, ETL/tags/stable/m4/cxx_macros.m4,
+	ETL/tags/stable/m4/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Copying everything over git-svn-id: http://svn.voria.com/code@1841
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.prj, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/_angle.h, ETL/tags/stable/ETL/_bezier.h,
+	ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/pen,
+	ETL/tags/stable/ETL/random, ETL/tags/stable/ETL/rect,
+	ETL/tags/stable/ETL/ref_count, ETL/tags/stable/ETL/smach,
+	ETL/tags/stable/ETL/smart_ptr, ETL/tags/stable/ETL/spline,
+	ETL/tags/stable/ETL/status, ETL/tags/stable/ETL/stringf,
+	ETL/tags/stable/ETL/surface, ETL/tags/stable/ETL/thread,
+	ETL/tags/stable/ETL/trivial, ETL/tags/stable/ETL/value,
+	ETL/tags/stable/Makefile.am, ETL/tags/stable/NEWS,
+	ETL/tags/stable/README, ETL/tags/stable/bootstrap,
+	ETL/tags/stable/config/ETL.m4, ETL/tags/stable/config/build.cfg,
+	ETL/tags/stable/config/configure.ac,
+	ETL/tags/stable/config/cxx_macros.m4,
+	ETL/tags/stable/config/doxygen.cfg.in,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/config/pkgconfig.pc.in,
+	ETL/tags/stable/config/project.spec.in,
+	ETL/tags/stable/config/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Removing old tag git-svn-id: http://svn.voria.com/code@1840
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-02  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS, ETL/trunk/configure.ac: Releasing 0.61.08! git-svn-id: http://svn.voria.com/code@1837
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-03-01  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Rewrite the 0.61.08 news entries as summaries
+	instead of essays. Include a link to the releases page for lengthier
+	release notes.  git-svn-id: http://svn.voria.com/code@1827
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-24  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/handle: Using mutexes around accesses to refcounts
+	seems to make the Windows build much less stable for some reason, so
+	let's not do it for now, until we can find out why.  git-svn-id: http://svn.voria.com/code@1815
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-23  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am, ETL/trunk/ETL/_handle.h,
+	ETL/trunk/ETL/_mutex_pthreads_simple.h,
+	ETL/trunk/ETL/_mutex_simple.h, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/mutex: Use _mutex_win32.h on Windows.  git-svn-id: http://svn.voria.com/code@1807
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-23  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am: Include 'mutex' and '_mutex_simple.h'
+	in the list of ETL headers to install.  git-svn-id: http://svn.voria.com/code@1805
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-22  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Use etl::mutexes to lock access to
+	reference counts.  git-svn-id: http://svn.voria.com/code@1799
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-22  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_mutex_simple.h, ETL/trunk/ETL/mutex: Two new files
+	to use pthread Mutexes very simply.  git-svn-id: http://svn.voria.com/code@1798
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-22  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/ipc: Use a more suitable #define to guard against
+	double-inclusion.  git-svn-id: http://svn.voria.com/code@1797
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-13  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Write "operator()" instead of "operator
+	()", "operator&" instead of "operator &", etc., to make them easier
+	to search for.  Previously both forms were used.  git-svn-id: http://svn.voria.com/code@1684
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Update NEWS files with most of the changes since
+	the last release.  git-svn-id: http://svn.voria.com/code@1657
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-09  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_smach.h, ETL/trunk/ETL/_surface.h,
+	ETL/trunk/test/angle.cpp: Added copyright lines for files I've
+	edited this year.  git-svn-id: http://svn.voria.com/code@1643
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-09  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_fixed.h, ETL/trunk/ETL/_handle.h,
+	ETL/trunk/ETL/_misc.h, ETL/trunk/test/fixed.cpp,
+	ETL/trunk/test/hermite.cpp: Added my "Copyright (c) 2007" notices,
+	for files I edited in 2007.  git-svn-id: http://svn.voria.com/code@1642
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-02-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.kdevprj, ETL/trunk/ETL.pbproj/project.pbxproj,
+	ETL/trunk/Makefile.am: Get rid of all references to the bootstrap
+	script since it was removed git-svn-id: http://svn.voria.com/code@1558
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-27  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_random.h, ETL/trunk/test/smach.cpp,
+	ETL/trunk/test/smart_ptr.cpp: More unused parameters - in ETL this
+	time.  git-svn-id: http://svn.voria.com/code@1514
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-27  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/m4/subs.m4: Don't use the '-Wno-unused-parameter' flag
+	by default.  git-svn-id: http://svn.voria.com/code@1507
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-26  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_smach.h: Prevent warning from g++ 4.3:
+	[ETL/_smach.h:171] declaration of 'typedef class etl::smach<CON, K,
+	M>::event_def<T> etl::smach<CON, K, M>::state<T>::event_def'
+	[ETL/_smach.h:102] changes meaning of 'event_def' from 'class
+	etl::smach<CON, K, M>::event_def<T>'.  git-svn-id: http://svn.voria.com/code@1496
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-26  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Prevent lots of warnings like
+	[_surface.h:68] declaration of 'typedef ...alpha_pen<...>
+	etl::surface<...>::alpha_pen' [_pen.h:320] changes meaning of
+	'alpha_pen' from '...alpha_pen<...>'.  git-svn-id: http://svn.voria.com/code@1495
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-25  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_clock_base.h: Avoid a warning from g++ 4.3.  git-svn-id: http://svn.voria.com/code@1465
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-25  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Avoid a warning from g++ 4.3.  git-svn-id: http://svn.voria.com/code@1462
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-25  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bspline.h: Avoid a warning from g++ 4.3.  git-svn-id: http://svn.voria.com/code@1461
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/AUTHORS, ETL/trunk/ETL-config.in: Make ETL-config a
+	wrapper around pkg-config. Patch by Ralf Corsepius
+	<rc040203@freenet.de> git-svn-id: http://svn.voria.com/code@1455
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-18  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/angle.cpp: Change the expected results to match the
+	new actual results, now that angles no longer wrap at 360 degrees.  git-svn-id: http://svn.voria.com/code@1399
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/pen.cpp: Removed a bunch more DEBUGPOINT()s.  git-svn-id: http://svn.voria.com/code@1338
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-08  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac: Use the bugs page on the website instead
+	of the tracker in the autoconf bugs argument of AC_INIT git-svn-id: http://svn.voria.com/code@1291
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2008-01-08  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Use synfig.org instead of synfig.com git-svn-id: http://svn.voria.com/code@1288
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-12-18  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.spec.in, ETL/trunk/Makefile.am,
+	ETL/trunk/configure.ac: Remove shitty .spec files that the RPM
+	distros will probably rewrite anyway.  git-svn-id: http://svn.voria.com/code@1209
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-12-18  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/m4/subs.m4: Strip license key and software expiry stuff
+	now that Synfig is free software and out of alpha testing.  git-svn-id: http://svn.voria.com/code@1208
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-12-17  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_fixed.h, ETL/trunk/ETL/_misc.h,
+	ETL/trunk/doxygen.cfg.in: Fix doxygen warnings for ETL sources.  git-svn-id: http://svn.voria.com/code@1206
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-12-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/doxygen.cfg.in: Generate documentation for everything
+	under 'src'.  Don't regenerate LaTeX documentation, only HTML.  git-svn-id: http://svn.voria.com/code@1198
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-12-09  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Fix g++ 4.3 issues; add missing
+	<cstring> includes, remove storage class on explicit template
+	specialization. Patch by Cyril Brulebois.  git-svn-id: http://svn.voria.com/code@1190
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-14  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Working on #1827966. Removed more 'wrap at
+	360 degrees' code.  git-svn-id: http://svn.voria.com/code@1150
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Working on 1827966: "Angles are
+	recalculated to 360 mod".  Experimenting with angles.  Define
+	ETL_WRAP_ANGLES in ETL/_angle.h to revert to previous behaviour.  git-svn-id: http://svn.voria.com/code@1139
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-09  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/configure.ac: Fix issue with older versions of autoconf git-svn-id: http://svn.voria.com/code@1124
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/fixed.cpp: Typo.  It wasn't using the final value
+	in the division test, so the compiler could still have been
+	optimizing the calculations out.  git-svn-id: http://svn.voria.com/code@1118
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Make the 'obj' member of handle and
+	loose_handle public when debugging.  It's useful sometimes to be
+	able to compare the addresses of the object behind the handles.  git-svn-id: http://svn.voria.com/code@1117
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-11-07  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pc.in, ETL/trunk/ETL.spec.in,
+	ETL/trunk/ETL/etl_profile_.h.in, ETL/trunk/Makefile.am,
+	ETL/trunk/bootstrap, ETL/trunk/config/ETL.m4,
+	ETL/trunk/config/build.cfg, ETL/trunk/config/configure.ac,
+	ETL/trunk/config/cxx_macros.m4, ETL/trunk/config/doxygen.cfg.in,
+	ETL/trunk/config/pkgconfig.pc.in, ETL/trunk/config/project.spec.in,
+	ETL/trunk/config/subs.m4, ETL/trunk/configure.ac,
+	ETL/trunk/doxygen.cfg.in, ETL/trunk/m4/ETL.m4,
+	ETL/trunk/m4/cxx_macros.m4, ETL/trunk/m4/subs.m4: DIE ./bootstrap,
+	DIE DIE DIE git-svn-id: http://svn.voria.com/code@1115
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-30  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/smach.cpp: Typo: 'enterted' -> 'entered'.  git-svn-id: http://svn.voria.com/code@1021
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-30  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/clock: Typo: 'outselves' -> 'ourselves'.  git-svn-id: http://svn.voria.com/code@1005
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-24  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: popen() doesn't like type "rb" on Linux,
+	either.  git-svn-id: http://svn.voria.com/code@959
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-24  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Fix 1818856: External application render
+	targets seem to be broken.  We can't use popen(command, "wb") on
+	Linux.  git-svn-id: http://svn.voria.com/code@958
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-21  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Tidying.  git-svn-id: http://svn.voria.com/code@937
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-21  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Tidying.  git-svn-id: http://svn.voria.com/code@936
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-21  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Typo.  git-svn-id: http://svn.voria.com/code@935
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-15  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Revert back to r930.  The last 2 commits
+	were no good.  git-svn-id: http://svn.voria.com/code@933
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-15  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Use Synfig::Mutex instead of Glib::Mutex.  git-svn-id: http://svn.voria.com/code@932
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-14  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_handle.h: Put mutexes around the reference counts
+	for the shared_object class.  Maybe this will help prevent crashes.  git-svn-id: http://svn.voria.com/code@931
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-14  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Wrote filename_extension() and
+	filename_sans_extension(), since they are reimplemented (often
+	incorrectly) in lots of places.  git-svn-id: http://svn.voria.com/code@928
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-11  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_misc.h: Use static_cast rather than the old C style
+	cast.  git-svn-id: http://svn.voria.com/code@900
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_misc.h: Fix rount_to_int() so it rounds to the
+	nearest integer.  Previously it was rounding -1.333 to 0.  git-svn-id: http://svn.voria.com/code@894
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Typo.  git-svn-id: http://svn.voria.com/code@893
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.prj, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/_angle.h, ETL/tags/stable/ETL/_bezier.h,
+	ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/pen,
+	ETL/tags/stable/ETL/random, ETL/tags/stable/ETL/rect,
+	ETL/tags/stable/ETL/ref_count, ETL/tags/stable/ETL/smach,
+	ETL/tags/stable/ETL/smart_ptr, ETL/tags/stable/ETL/spline,
+	ETL/tags/stable/ETL/status, ETL/tags/stable/ETL/stringf,
+	ETL/tags/stable/ETL/surface, ETL/tags/stable/ETL/thread,
+	ETL/tags/stable/ETL/trivial, ETL/tags/stable/ETL/value,
+	ETL/tags/stable/Makefile.am, ETL/tags/stable/NEWS,
+	ETL/tags/stable/README, ETL/tags/stable/bootstrap,
+	ETL/tags/stable/config/ETL.m4, ETL/tags/stable/config/build.cfg,
+	ETL/tags/stable/config/configure.ac,
+	ETL/tags/stable/config/cxx_macros.m4,
+	ETL/tags/stable/config/doxygen.cfg.in,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/config/pkgconfig.pc.in,
+	ETL/tags/stable/config/project.spec.in,
+	ETL/tags/stable/config/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Copying everything over git-svn-id: http://svn.voria.com/code@888
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.prj, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/_angle.h, ETL/tags/stable/ETL/_bezier.h,
+	ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/pen,
+	ETL/tags/stable/ETL/random, ETL/tags/stable/ETL/rect,
+	ETL/tags/stable/ETL/ref_count, ETL/tags/stable/ETL/smach,
+	ETL/tags/stable/ETL/smart_ptr, ETL/tags/stable/ETL/spline,
+	ETL/tags/stable/ETL/status, ETL/tags/stable/ETL/stringf,
+	ETL/tags/stable/ETL/surface, ETL/tags/stable/ETL/thread,
+	ETL/tags/stable/ETL/trivial, ETL/tags/stable/ETL/value,
+	ETL/tags/stable/Makefile.am, ETL/tags/stable/NEWS,
+	ETL/tags/stable/README, ETL/tags/stable/bootstrap,
+	ETL/tags/stable/config/ETL.m4, ETL/tags/stable/config/build.cfg,
+	ETL/tags/stable/config/configure.ac,
+	ETL/tags/stable/config/cxx_macros.m4,
+	ETL/tags/stable/config/doxygen.cfg.in,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/config/pkgconfig.pc.in,
+	ETL/tags/stable/config/project.spec.in,
+	ETL/tags/stable/config/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Removing old tag git-svn-id: http://svn.voria.com/code@887
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_10/AUTHORS, ETL/tags/ETL_0_04_10/ETL-config.in,
+	ETL/tags/ETL_0_04_10/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10/ETL.prj, ETL/tags/ETL_0_04_10/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10/ETL/_random.h,
+	ETL/tags/ETL_0_04_10/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10/ETL/_status.h,
+	ETL/tags/ETL_0_04_10/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10/ETL/_value.h, ETL/tags/ETL_0_04_10/ETL/angle,
+	ETL/tags/ETL_0_04_10/ETL/bezier, ETL/tags/ETL_0_04_10/ETL/boxblur,
+	ETL/tags/ETL_0_04_10/ETL/calculus, ETL/tags/ETL_0_04_10/ETL/clock,
+	ETL/tags/ETL_0_04_10/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10/ETL/fastangle, ETL/tags/ETL_0_04_10/ETL/fixed,
+	ETL/tags/ETL_0_04_10/ETL/gaussian, ETL/tags/ETL_0_04_10/ETL/handle,
+	ETL/tags/ETL_0_04_10/ETL/hermite, ETL/tags/ETL_0_04_10/ETL/ipc,
+	ETL/tags/ETL_0_04_10/ETL/misc, ETL/tags/ETL_0_04_10/ETL/pen,
+	ETL/tags/ETL_0_04_10/ETL/random, ETL/tags/ETL_0_04_10/ETL/rect,
+	ETL/tags/ETL_0_04_10/ETL/ref_count, ETL/tags/ETL_0_04_10/ETL/smach,
+	ETL/tags/ETL_0_04_10/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10/ETL/spline, ETL/tags/ETL_0_04_10/ETL/status,
+	ETL/tags/ETL_0_04_10/ETL/stringf, ETL/tags/ETL_0_04_10/ETL/surface,
+	ETL/tags/ETL_0_04_10/ETL/thread, ETL/tags/ETL_0_04_10/ETL/trivial,
+	ETL/tags/ETL_0_04_10/ETL/value, ETL/tags/ETL_0_04_10/Makefile.am,
+	ETL/tags/ETL_0_04_10/NEWS, ETL/tags/ETL_0_04_10/README,
+	ETL/tags/ETL_0_04_10/bootstrap, ETL/tags/ETL_0_04_10/config/ETL.m4,
+	ETL/tags/ETL_0_04_10/config/build.cfg,
+	ETL/tags/ETL_0_04_10/config/configure.ac,
+	ETL/tags/ETL_0_04_10/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/License.rtf
+	,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/Welcome.rtf
+	,
+	ETL/tags/ETL_0_04_10/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/ETL_0_04_10/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10/config/project.spec.in,
+	ETL/tags/ETL_0_04_10/config/subs.m4,
+	ETL/tags/ETL_0_04_10/test/Makefile.am,
+	ETL/tags/ETL_0_04_10/test/angle.cpp,
+	ETL/tags/ETL_0_04_10/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10/test/clock.cpp,
+	ETL/tags/ETL_0_04_10/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10/test/handle.cpp,
+	ETL/tags/ETL_0_04_10/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10/test/pen.cpp,
+	ETL/tags/ETL_0_04_10/test/random.cpp,
+	ETL/tags/ETL_0_04_10/test/smach.cpp,
+	ETL/tags/ETL_0_04_10/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10/test/spline.cpp,
+	ETL/tags/ETL_0_04_10/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10/test/surface.cpp,
+	ETL/tags/ETL_0_04_10/test/value.cpp: Release ETL_0_04_10 git-svn-id: http://svn.voria.com/code@876
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Updated svn revision number and date in NEWS
+	files.  git-svn-id: http://svn.voria.com/code@875
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h: Don't include <ETL/fixed> because it's
+	not used.  git-svn-id: http://svn.voria.com/code@874
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/hermite.cpp: #include <ETL/fixed> so ETL/_bezier.h
+	doesn't have to.  git-svn-id: http://svn.voria.com/code@873
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/fixed.cpp: Various changes: Improve the formatting
+	of the output.  Stop the compiler optimizing out the calculations.
+	Allow greater error when multiplying by PI if _fixed.h isn't
+	rounding to the nearest integer.  Define variable before using it.
+	Tidy the source code layout.  Prevent a core dump by not allowing
+	numbers to wrap around to zero.  git-svn-id: http://svn.voria.com/code@872
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_fixed.h: Conditionally compile in the '+0.5' code
+	to make fixed point numbers more accurate.  Currently disabled.  git-svn-id: http://svn.voria.com/code@871
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_10_rc3/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc3/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc3/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc3/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc3/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc3/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc3/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc3/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc3/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc3/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc3/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc3/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc3/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc3/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc3/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc3/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc3/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc3/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc3/ETL/random,
+	ETL/tags/ETL_0_04_10_rc3/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc3/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc3/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc3/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc3/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc3/ETL/status,
+	ETL/tags/ETL_0_04_10_rc3/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc3/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc3/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc3/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc3/ETL/value,
+	ETL/tags/ETL_0_04_10_rc3/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/NEWS, ETL/tags/ETL_0_04_10_rc3/README,
+	ETL/tags/ETL_0_04_10_rc3/bootstrap,
+	ETL/tags/ETL_0_04_10_rc3/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc3/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc3/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc3/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc3/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc3/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc3/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc3/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc3/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc3/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc3/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc3/test/value.cpp: Release ETL_0_04_10_rc3 git-svn-id: http://svn.voria.com/code@867
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Updated NEWS files.  git-svn-id: http://svn.voria.com/code@865
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/fixed.cpp: Add an error message explaining why the
+	'fixed' tests fail.  git-svn-id: http://svn.voria.com/code@864
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-07  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_10_rc2/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc2/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc2/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc2/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc2/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc2/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc2/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc2/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc2/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc2/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc2/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc2/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc2/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc2/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc2/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc2/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc2/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc2/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc2/ETL/random,
+	ETL/tags/ETL_0_04_10_rc2/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc2/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc2/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc2/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc2/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc2/ETL/status,
+	ETL/tags/ETL_0_04_10_rc2/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc2/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc2/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc2/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc2/ETL/value,
+	ETL/tags/ETL_0_04_10_rc2/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/NEWS, ETL/tags/ETL_0_04_10_rc2/README,
+	ETL/tags/ETL_0_04_10_rc2/bootstrap,
+	ETL/tags/ETL_0_04_10_rc2/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc2/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc2/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc2/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc2/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc2/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc2/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc2/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc2/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc2/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc2/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc2/test/value.cpp: Release ETL_0_04_10_rc2 git-svn-id: http://svn.voria.com/code@861
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-06  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_10_rc1/AUTHORS,
+	ETL/tags/ETL_0_04_10_rc1/ETL-config.in,
+	ETL/tags/ETL_0_04_10_rc1/ETL.kdevprj,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_10_rc1/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_10_rc1/ETL.prj,
+	ETL/tags/ETL_0_04_10_rc1/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_angle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_condition.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_curve.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_handle.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_misc.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_pen.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_random.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_rect.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_smach.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_status.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_surface.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_thread.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/_value.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/angle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/bezier,
+	ETL/tags/ETL_0_04_10_rc1/ETL/boxblur,
+	ETL/tags/ETL_0_04_10_rc1/ETL/calculus,
+	ETL/tags/ETL_0_04_10_rc1/ETL/clock,
+	ETL/tags/ETL_0_04_10_rc1/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_10_rc1/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_10_rc1/ETL/fastangle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/fixed,
+	ETL/tags/ETL_0_04_10_rc1/ETL/gaussian,
+	ETL/tags/ETL_0_04_10_rc1/ETL/handle,
+	ETL/tags/ETL_0_04_10_rc1/ETL/hermite,
+	ETL/tags/ETL_0_04_10_rc1/ETL/ipc,
+	ETL/tags/ETL_0_04_10_rc1/ETL/misc,
+	ETL/tags/ETL_0_04_10_rc1/ETL/pen,
+	ETL/tags/ETL_0_04_10_rc1/ETL/random,
+	ETL/tags/ETL_0_04_10_rc1/ETL/rect,
+	ETL/tags/ETL_0_04_10_rc1/ETL/ref_count,
+	ETL/tags/ETL_0_04_10_rc1/ETL/smach,
+	ETL/tags/ETL_0_04_10_rc1/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_10_rc1/ETL/spline,
+	ETL/tags/ETL_0_04_10_rc1/ETL/status,
+	ETL/tags/ETL_0_04_10_rc1/ETL/stringf,
+	ETL/tags/ETL_0_04_10_rc1/ETL/surface,
+	ETL/tags/ETL_0_04_10_rc1/ETL/thread,
+	ETL/tags/ETL_0_04_10_rc1/ETL/trivial,
+	ETL/tags/ETL_0_04_10_rc1/ETL/value,
+	ETL/tags/ETL_0_04_10_rc1/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/NEWS, ETL/tags/ETL_0_04_10_rc1/README,
+	ETL/tags/ETL_0_04_10_rc1/bootstrap,
+	ETL/tags/ETL_0_04_10_rc1/config/ETL.m4,
+	ETL/tags/ETL_0_04_10_rc1/config/build.cfg,
+	ETL/tags/ETL_0_04_10_rc1/config/configure.ac,
+	ETL/tags/ETL_0_04_10_rc1/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_10_rc1/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_10_rc1/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_10_rc1/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_10_rc1/config/project.spec.in,
+	ETL/tags/ETL_0_04_10_rc1/config/subs.m4,
+	ETL/tags/ETL_0_04_10_rc1/test/Makefile.am,
+	ETL/tags/ETL_0_04_10_rc1/test/angle.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/clock.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/fixed.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/handle.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/hermite.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/pen.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/random.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/smach.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/spline.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/stringf.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/surface.cpp,
+	ETL/tags/ETL_0_04_10_rc1/test/value.cpp: Release ETL_0_04_10_rc1 git-svn-id: http://svn.voria.com/code@850
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-06  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h, ETL/trunk/ETL/_bezier.h,
+	ETL/trunk/ETL/_status.h, ETL/trunk/ETL/_stringf.h: Add my copyright
+	to files I've modified.  git-svn-id: http://svn.voria.com/code@848
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-06  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/build.cfg: Bump the version numbers ready for the
+	coming release.  git-svn-id: http://svn.voria.com/code@847
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-06  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Add my copyright.  git-svn-id: http://svn.voria.com/code@846
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-10-05  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Updated to r843.  git-svn-id: http://svn.voria.com/code@844
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Replace angle::epsilon with a #defined
+	value instead.  I don't know how to define a static member variable
+	in a template header file.  git-svn-id: http://svn.voria.com/code@799
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Add a new function angle::abs() which
+	returns the absolute (positive) value of an angle.  git-svn-id: http://svn.voria.com/code@793
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Commented out the deprecated angle type
+	conversion operators.  They weren't used anywhere (everything still
+	compiles without them, anyway) and they were preventing the
+	multiplication operators from working.  (g++ complains "error: ISO
+	C++ says that these are ambiguous, even though the worst conversion
+	for the first is better than the worst conversion for the second").  git-svn-id: http://svn.voria.com/code@792
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Move the deprecated type conversion
+	operator prototypes to the end of their class definitions.  git-svn-id: http://svn.voria.com/code@791
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Fixed a typo - the wrong method was marked
+	as deprecated in angle::cos.  git-svn-id: http://svn.voria.com/code@790
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Operator '!' is supposed to be true when
+	an angle is 'no rotation'.  It was failing for 360 degrees, and also
+	failing due to floating point rounding error.  Fixed both of these
+	problems.  git-svn-id: http://svn.voria.com/code@789
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: The zero(), one(), and half() functions
+	weren't documented, and aren't used anywhere, but half() was
+	returning a quarter rotation, and one() was returning a half
+	rotation.  Surely they're both meant to return twice that?  Fixed
+	accordingly, and commented them.  git-svn-id: http://svn.voria.com/code@788
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: The comments for the inequality comparison
+	operators seemed to suggest that positive rotation is clockwise.  In
+	Synfig, 0 degrees is due east, and positive rotation is
+	counter-clockwise.  Amended the comments accordingly, and made a
+	comment at the top stating that positive rotation is
+	counter-clockwise.  git-svn-id: http://svn.voria.com/code@787
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Fix the indentation.  git-svn-id: http://svn.voria.com/code@786
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Operators == and != were returning that 90
+	degrees != (90+360) degrees, due to floating point rounding errors.
+	Allow an epsilon of difference.  git-svn-id: http://svn.voria.com/code@785
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: The angle comparison code was considering
+	90+359 degrees to be greater than 90 degrees.  The comments claim
+	otherwise.  Fix the code to correspond with the comments.  Similarly
+	for <, >=, and <=.  git-svn-id: http://svn.voria.com/code@784
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Since angles are stored in radians, we
+	need to add on PI, not 0.5 to rotate by 180 degrees.  git-svn-id: http://svn.voria.com/code@783
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-28  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h: Angles are stored in radians, not
+	rotations.  git-svn-id: http://svn.voria.com/code@782
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-27  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/build.cfg: Use the http svn repository, not
+	https, because using the https causes svn2cl to hang forever if the
+	server isn't trusted locally.  git-svn-id: http://svn.voria.com/code@773
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-13  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/pen.cpp: Spelling corrections.  git-svn-id: http://svn.voria.com/code@665
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-13  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Add some changes to NEWS git-svn-id: http://svn.voria.com/code@660
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h, ETL/trunk/ETL/_bezier.h,
+	ETL/trunk/ETL/_clock_base.h, ETL/trunk/ETL/_fastangle.h,
+	ETL/trunk/ETL/_gaussian.h, ETL/trunk/ETL/_handle.h,
+	ETL/trunk/ETL/_smach.h, ETL/trunk/ETL/_surface.h,
+	ETL/trunk/ETL/_value.h: A few more typos.  git-svn-id: http://svn.voria.com/code@659
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h, ETL/trunk/ETL/etl_config.h: Since the
+	last change will require a recompilation of pretty much everything,
+	I took this opportunity to fix some spelling mistakes that were
+	annoying me.  git-svn-id: http://svn.voria.com/code@658
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Fix 1793306: dirname() doesn't work on
+	absolute paths.  Also fixed basename().  Fixed a potentially
+	infinite loop, and a couple of other small changes.  git-svn-id: http://svn.voria.com/code@657
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_status.h: Added a #warning about some bad code in
+	an unused source file, just in case it ever gets used.  git-svn-id: http://svn.voria.com/code@634
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_status.h, ETL/trunk/ETL/status: Mark ETL/status and
+	ETL/_status.h as unused.  git-svn-id: http://svn.voria.com/code@633
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-08  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_mutex_null.h: Prevent compiler warnings about
+	unused parameters.  git-svn-id: http://svn.voria.com/code@631
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-09-07  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h: This looks like a typo.  I don't think
+	this function is ever used, anyway (other than by a few other
+	functions which are never used (other than by a few functions that
+	...)).  git-svn-id: http://svn.voria.com/code@627
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/AUTHORS, ETL/tags/stable/ETL-config.in,
+	ETL/tags/stable/ETL.kdevprj,
+	ETL/tags/stable/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL.prj, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/_angle.h, ETL/tags/stable/ETL/_bezier.h,
+	ETL/tags/stable/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/_bit_rotate.h, ETL/tags/stable/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/_bspline.h, ETL/tags/stable/ETL/_calculus.h,
+	ETL/tags/stable/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/_condition.h, ETL/tags/stable/ETL/_curve.h,
+	ETL/tags/stable/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/_fixed.h, ETL/tags/stable/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/_handle.h, ETL/tags/stable/ETL/_hermite.h,
+	ETL/tags/stable/ETL/_misc.h, ETL/tags/stable/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/_mutex_win32.h, ETL/tags/stable/ETL/_pen.h,
+	ETL/tags/stable/ETL/_random.h, ETL/tags/stable/ETL/_rect.h,
+	ETL/tags/stable/ETL/_ref_count.h, ETL/tags/stable/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/_smach.h, ETL/tags/stable/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/_status.h, ETL/tags/stable/ETL/_stringf.h,
+	ETL/tags/stable/ETL/_surface.h, ETL/tags/stable/ETL/_thread.h,
+	ETL/tags/stable/ETL/_trivial.h, ETL/tags/stable/ETL/_value.h,
+	ETL/tags/stable/ETL/angle, ETL/tags/stable/ETL/bezier,
+	ETL/tags/stable/ETL/boxblur, ETL/tags/stable/ETL/calculus,
+	ETL/tags/stable/ETL/clock, ETL/tags/stable/ETL/etl_config.h,
+	ETL/tags/stable/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/fastangle, ETL/tags/stable/ETL/fixed,
+	ETL/tags/stable/ETL/gaussian, ETL/tags/stable/ETL/handle,
+	ETL/tags/stable/ETL/hermite, ETL/tags/stable/ETL/ipc,
+	ETL/tags/stable/ETL/misc, ETL/tags/stable/ETL/pen,
+	ETL/tags/stable/ETL/random, ETL/tags/stable/ETL/rect,
+	ETL/tags/stable/ETL/ref_count, ETL/tags/stable/ETL/smach,
+	ETL/tags/stable/ETL/smart_ptr, ETL/tags/stable/ETL/spline,
+	ETL/tags/stable/ETL/status, ETL/tags/stable/ETL/stringf,
+	ETL/tags/stable/ETL/surface, ETL/tags/stable/ETL/thread,
+	ETL/tags/stable/ETL/trivial, ETL/tags/stable/ETL/value,
+	ETL/tags/stable/Makefile.am, ETL/tags/stable/NEWS,
+	ETL/tags/stable/README, ETL/tags/stable/bootstrap,
+	ETL/tags/stable/config/ETL.m4, ETL/tags/stable/config/build.cfg,
+	ETL/tags/stable/config/configure.ac,
+	ETL/tags/stable/config/cxx_macros.m4,
+	ETL/tags/stable/config/doxygen.cfg.in,
+	ETL/tags/stable/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/config/pkgconfig.pc.in,
+	ETL/tags/stable/config/project.spec.in,
+	ETL/tags/stable/config/subs.m4, ETL/tags/stable/test/Makefile.am,
+	ETL/tags/stable/test/angle.cpp, ETL/tags/stable/test/benchmark.cpp,
+	ETL/tags/stable/test/clock.cpp, ETL/tags/stable/test/fixed.cpp,
+	ETL/tags/stable/test/handle.cpp, ETL/tags/stable/test/hermite.cpp,
+	ETL/tags/stable/test/pen.cpp, ETL/tags/stable/test/random.cpp,
+	ETL/tags/stable/test/smach.cpp, ETL/tags/stable/test/smart_ptr.cpp,
+	ETL/tags/stable/test/spline.cpp, ETL/tags/stable/test/stringf.cpp,
+	ETL/tags/stable/test/surface.cpp, ETL/tags/stable/test/value.cpp: 
+	Stable Tag: Copying everything over git-svn-id: http://svn.voria.com/code@534
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/ETL/.cvsignore, ETL/tags/stable/ETL/ChangeLog,
+	ETL/tags/stable/ETL/ETL-config.in, ETL/tags/stable/ETL/ETL.kdevprj,
+	ETL/tags/stable/ETL/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL/ETL.pc.in, ETL/tags/stable/ETL/ETL.prj,
+	ETL/tags/stable/ETL/ETL/.cvsignore,
+	ETL/tags/stable/ETL/ETL/Makefile.am,
+	ETL/tags/stable/ETL/ETL/_angle.h,
+	ETL/tags/stable/ETL/ETL/_bezier.h,
+	ETL/tags/stable/ETL/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/ETL/_bit_rotate.h,
+	ETL/tags/stable/ETL/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/ETL/_bspline.h,
+	ETL/tags/stable/ETL/ETL/_calculus.h,
+	ETL/tags/stable/ETL/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/ETL/_condition.h,
+	ETL/tags/stable/ETL/ETL/_curve.h,
+	ETL/tags/stable/ETL/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/ETL/_fixed.h,
+	ETL/tags/stable/ETL/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/ETL/_handle.h,
+	ETL/tags/stable/ETL/ETL/_hermite.h,
+	ETL/tags/stable/ETL/ETL/_misc.h,
+	ETL/tags/stable/ETL/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/ETL/_mutex_win32.h,
+	ETL/tags/stable/ETL/ETL/_pen.h, ETL/tags/stable/ETL/ETL/_random.h,
+	ETL/tags/stable/ETL/ETL/_rect.h,
+	ETL/tags/stable/ETL/ETL/_ref_count.h,
+	ETL/tags/stable/ETL/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/ETL/_smach.h,
+	ETL/tags/stable/ETL/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/ETL/_status.h,
+	ETL/tags/stable/ETL/ETL/_stringf.h,
+	ETL/tags/stable/ETL/ETL/_surface.h,
+	ETL/tags/stable/ETL/ETL/_thread.h,
+	ETL/tags/stable/ETL/ETL/_trivial.h,
+	ETL/tags/stable/ETL/ETL/_value.h, ETL/tags/stable/ETL/ETL/angle,
+	ETL/tags/stable/ETL/ETL/bezier, ETL/tags/stable/ETL/ETL/boxblur,
+	ETL/tags/stable/ETL/ETL/calculus, ETL/tags/stable/ETL/ETL/clock,
+	ETL/tags/stable/ETL/ETL/etl_config.h,
+	ETL/tags/stable/ETL/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/ETL/fastangle, ETL/tags/stable/ETL/ETL/fixed,
+	ETL/tags/stable/ETL/ETL/gaussian, ETL/tags/stable/ETL/ETL/handle,
+	ETL/tags/stable/ETL/ETL/hermite, ETL/tags/stable/ETL/ETL/ipc,
+	ETL/tags/stable/ETL/ETL/misc, ETL/tags/stable/ETL/ETL/pen,
+	ETL/tags/stable/ETL/ETL/random, ETL/tags/stable/ETL/ETL/rect,
+	ETL/tags/stable/ETL/ETL/ref_count, ETL/tags/stable/ETL/ETL/smach,
+	ETL/tags/stable/ETL/ETL/smart_ptr, ETL/tags/stable/ETL/ETL/spline,
+	ETL/tags/stable/ETL/ETL/status, ETL/tags/stable/ETL/ETL/stringf,
+	ETL/tags/stable/ETL/ETL/surface, ETL/tags/stable/ETL/ETL/thread,
+	ETL/tags/stable/ETL/ETL/trivial, ETL/tags/stable/ETL/ETL/value,
+	ETL/tags/stable/ETL/INSTALL, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/README, ETL/tags/stable/ETL/bootstrap,
+	ETL/tags/stable/ETL/config/.cvsignore,
+	ETL/tags/stable/ETL/config/ETL.m4,
+	ETL/tags/stable/ETL/config/build.cfg,
+	ETL/tags/stable/ETL/config/configure.ac,
+	ETL/tags/stable/ETL/config/cxx_macros.m4,
+	ETL/tags/stable/ETL/config/doxygen.cfg.in,
+	ETL/tags/stable/ETL/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/ETL/config/pkgconfig.pc.in,
+	ETL/tags/stable/ETL/config/project.spec.in,
+	ETL/tags/stable/ETL/config/subs.m4,
+	ETL/tags/stable/ETL/doxygen.cfg,
+	ETL/tags/stable/ETL/test/.cvsignore,
+	ETL/tags/stable/ETL/test/Makefile.am,
+	ETL/tags/stable/ETL/test/angle.cpp,
+	ETL/tags/stable/ETL/test/benchmark.cpp,
+	ETL/tags/stable/ETL/test/clock.cpp,
+	ETL/tags/stable/ETL/test/fixed.cpp,
+	ETL/tags/stable/ETL/test/handle.cpp,
+	ETL/tags/stable/ETL/test/hermite.cpp,
+	ETL/tags/stable/ETL/test/pen.cpp,
+	ETL/tags/stable/ETL/test/random.cpp,
+	ETL/tags/stable/ETL/test/smach.cpp,
+	ETL/tags/stable/ETL/test/smart_ptr.cpp,
+	ETL/tags/stable/ETL/test/spline.cpp,
+	ETL/tags/stable/ETL/test/stringf.cpp,
+	ETL/tags/stable/ETL/test/surface.cpp,
+	ETL/tags/stable/ETL/test/value.cpp: Stabe Tag: Removing old tag git-svn-id: http://svn.voria.com/code@533
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_09/AUTHORS, ETL/tags/ETL_0_04_09/ETL-config.in,
+	ETL/tags/ETL_0_04_09/ETL.kdevprj,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_09/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_09/ETL.prj, ETL/tags/ETL_0_04_09/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_09/ETL/_angle.h,
+	ETL/tags/ETL_0_04_09/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_09/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_09/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_09/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_09/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_09/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_09/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_09/ETL/_condition.h,
+	ETL/tags/ETL_0_04_09/ETL/_curve.h,
+	ETL/tags/ETL_0_04_09/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_09/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_09/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_09/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_09/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_09/ETL/_handle.h,
+	ETL/tags/ETL_0_04_09/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_09/ETL/_misc.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_09/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_09/ETL/_pen.h,
+	ETL/tags/ETL_0_04_09/ETL/_random.h,
+	ETL/tags/ETL_0_04_09/ETL/_rect.h,
+	ETL/tags/ETL_0_04_09/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_09/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_09/ETL/_smach.h,
+	ETL/tags/ETL_0_04_09/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_09/ETL/_status.h,
+	ETL/tags/ETL_0_04_09/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_09/ETL/_surface.h,
+	ETL/tags/ETL_0_04_09/ETL/_thread.h,
+	ETL/tags/ETL_0_04_09/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_09/ETL/_value.h, ETL/tags/ETL_0_04_09/ETL/angle,
+	ETL/tags/ETL_0_04_09/ETL/bezier, ETL/tags/ETL_0_04_09/ETL/boxblur,
+	ETL/tags/ETL_0_04_09/ETL/calculus, ETL/tags/ETL_0_04_09/ETL/clock,
+	ETL/tags/ETL_0_04_09/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_09/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_09/ETL/fastangle, ETL/tags/ETL_0_04_09/ETL/fixed,
+	ETL/tags/ETL_0_04_09/ETL/gaussian, ETL/tags/ETL_0_04_09/ETL/handle,
+	ETL/tags/ETL_0_04_09/ETL/hermite, ETL/tags/ETL_0_04_09/ETL/ipc,
+	ETL/tags/ETL_0_04_09/ETL/misc, ETL/tags/ETL_0_04_09/ETL/pen,
+	ETL/tags/ETL_0_04_09/ETL/random, ETL/tags/ETL_0_04_09/ETL/rect,
+	ETL/tags/ETL_0_04_09/ETL/ref_count, ETL/tags/ETL_0_04_09/ETL/smach,
+	ETL/tags/ETL_0_04_09/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_09/ETL/spline, ETL/tags/ETL_0_04_09/ETL/status,
+	ETL/tags/ETL_0_04_09/ETL/stringf, ETL/tags/ETL_0_04_09/ETL/surface,
+	ETL/tags/ETL_0_04_09/ETL/thread, ETL/tags/ETL_0_04_09/ETL/trivial,
+	ETL/tags/ETL_0_04_09/ETL/value, ETL/tags/ETL_0_04_09/Makefile.am,
+	ETL/tags/ETL_0_04_09/NEWS, ETL/tags/ETL_0_04_09/README,
+	ETL/tags/ETL_0_04_09/bootstrap, ETL/tags/ETL_0_04_09/config/ETL.m4,
+	ETL/tags/ETL_0_04_09/config/build.cfg,
+	ETL/tags/ETL_0_04_09/config/configure.ac,
+	ETL/tags/ETL_0_04_09/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_09/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_09/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/License.rtf
+	,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/Welcome.rtf
+	,
+	ETL/tags/ETL_0_04_09/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/ETL_0_04_09/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_09/config/project.spec.in,
+	ETL/tags/ETL_0_04_09/config/subs.m4,
+	ETL/tags/ETL_0_04_09/test/Makefile.am,
+	ETL/tags/ETL_0_04_09/test/angle.cpp,
+	ETL/tags/ETL_0_04_09/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_09/test/clock.cpp,
+	ETL/tags/ETL_0_04_09/test/fixed.cpp,
+	ETL/tags/ETL_0_04_09/test/handle.cpp,
+	ETL/tags/ETL_0_04_09/test/hermite.cpp,
+	ETL/tags/ETL_0_04_09/test/pen.cpp,
+	ETL/tags/ETL_0_04_09/test/random.cpp,
+	ETL/tags/ETL_0_04_09/test/smach.cpp,
+	ETL/tags/ETL_0_04_09/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_09/test/spline.cpp,
+	ETL/tags/ETL_0_04_09/test/stringf.cpp,
+	ETL/tags/ETL_0_04_09/test/surface.cpp,
+	ETL/tags/ETL_0_04_09/test/value.cpp: Release ETL_0_04_09 git-svn-id: http://svn.voria.com/code@532
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Fix SVN revision number of the new release git-svn-id: http://svn.voria.com/code@530
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Fix SVN tagging targets in the Makefile git-svn-id: http://svn.voria.com/code@529
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-20  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Releasing ETL 0.04.09 today git-svn-id: http://svn.voria.com/code@526
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-12  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/build.cfg: Bump version number to 0.04.09.
+	Hopefully the last revision before the release.  git-svn-id: http://svn.voria.com/code@519
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-10  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Remove the generated COPYING and INSTALL
+	files on maintainer-clean git-svn-id: http://svn.voria.com/code@507
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-10  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am, ETL/trunk/bootstrap: Generate the ChangeLog
+	at bootstrap time, make the ChangeLog Makefile target more robust git-svn-id: http://svn.voria.com/code@504
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-04  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Add a rule to create the ChangeLog from SVN git-svn-id: http://svn.voria.com/code@499
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Don't forget to delete doxygen.cfg and
+	ETL.pc.in on maintainer-clean (generated files) git-svn-id: http://svn.voria.com/code@498
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/Makefile.am: CXXFLAGS is for users, use AM_CXXFLAGS
+	instead git-svn-id: http://svn.voria.com/code@497
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-03  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap: Change automake invocation to use symlinks
+	and use the stricter gnu standards git-svn-id: http://svn.voria.com/code@494
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-06-02  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am, ETL/trunk/test/Makefile.am: Release
+	preparations: add some files to the tarball that were previously
+	missed git-svn-id: http://svn.voria.com/code@489
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-23  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h: Fix 1672033: when deciding which curve we
+	are closest to, ignore the very ends of each curve. This allows us
+	to better decide between 2 curves which end in exactly the same
+	place.  git-svn-id: http://svn.voria.com/code@481
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-18  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_bezier.h, ETL/trunk/NEWS: Added a slower but more
+	accurate find_closest() routine to _bezier.h.  Added a parameter to
+	the curve gradient layer to optionally use the new code.  git-svn-id: http://svn.voria.com/code@472
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_smach.h: Typos.  git-svn-id: http://svn.voria.com/code@465
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-10  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap: Fixed a typo.  git-svn-id: http://svn.voria.com/code@450
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-07  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Fixed typo.  git-svn-id: http://svn.voria.com/code@443
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-07  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Fix typo in r428 (csdlib -> cstdlib) git-svn-id: http://svn.voria.com/code@442
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-06  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/AUTHORS: Add dooglus to the AUTHORS file git-svn-id: http://svn.voria.com/code@429
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-04-06  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/AUTHORS, ETL/trunk/ETL/_stringf.h: Fix Debian 417897:
+	causes synfig FTBFS in gcc 4.3 due to not including all the required
+	headers. Patch by Martin Michlmayr git-svn-id: http://svn.voria.com/code@428
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-31  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_pen.h: subptr() should subtract from the pointer,
+	not add to it.  git-svn-id: http://svn.voria.com/code@397
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-29  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Update NEWS file for the next release git-svn-id: http://svn.voria.com/code@390
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-16  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_smach.h: Spelling correction.  git-svn-id: http://svn.voria.com/code@350
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-16  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/Makefile.am, ETL/trunk/ETL/angle,
+	ETL/trunk/ETL/bezier, ETL/trunk/ETL/boxblur,
+	ETL/trunk/ETL/calculus, ETL/trunk/ETL/clock,
+	ETL/trunk/ETL/fastangle, ETL/trunk/ETL/fixed,
+	ETL/trunk/ETL/gaussian, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/hermite, ETL/trunk/ETL/ipc, ETL/trunk/ETL/misc,
+	ETL/trunk/ETL/pen, ETL/trunk/ETL/random, ETL/trunk/ETL/rect,
+	ETL/trunk/ETL/ref_count, ETL/trunk/ETL/smach,
+	ETL/trunk/ETL/smart_ptr, ETL/trunk/ETL/spline,
+	ETL/trunk/ETL/status, ETL/trunk/ETL/stringf, ETL/trunk/ETL/surface,
+	ETL/trunk/ETL/thread, ETL/trunk/ETL/trivial, ETL/trunk/ETL/value,
+	ETL/trunk/Makefile.am, ETL/trunk/bootstrap,
+	ETL/trunk/config/ETL.m4, ETL/trunk/config/configure.ac,
+	ETL/trunk/test/Makefile.am: Enable more $Id$ expansion.  git-svn-id: http://svn.voria.com/code@337
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-16  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_angle.h, ETL/trunk/ETL/_bezier.h,
+	ETL/trunk/ETL/_bezier_angle.h, ETL/trunk/ETL/_bit_rotate.h,
+	ETL/trunk/ETL/_boxblur.h, ETL/trunk/ETL/_bspline.h,
+	ETL/trunk/ETL/_calculus.h, ETL/trunk/ETL/_clock_base.h,
+	ETL/trunk/ETL/_clock_gettimeofday.h, ETL/trunk/ETL/_clock_system.h,
+	ETL/trunk/ETL/_clock_win32hpcount.h, ETL/trunk/ETL/_condition.h,
+	ETL/trunk/ETL/_curve.h, ETL/trunk/ETL/_curve_func.h,
+	ETL/trunk/ETL/_fastangle.h, ETL/trunk/ETL/_fixed.h,
+	ETL/trunk/ETL/_gaussian.h, ETL/trunk/ETL/_handle.h,
+	ETL/trunk/ETL/_hermite.h, ETL/trunk/ETL/_misc.h,
+	ETL/trunk/ETL/_mutex_null.h, ETL/trunk/ETL/_mutex_pthreads.h,
+	ETL/trunk/ETL/_mutex_win32.h, ETL/trunk/ETL/_pen.h,
+	ETL/trunk/ETL/_random.h, ETL/trunk/ETL/_rect.h,
+	ETL/trunk/ETL/_ref_count.h, ETL/trunk/ETL/_rwlock.h,
+	ETL/trunk/ETL/_smach.h, ETL/trunk/ETL/_smart_ptr.h,
+	ETL/trunk/ETL/_status.h, ETL/trunk/ETL/_stringf.h,
+	ETL/trunk/ETL/_surface.h, ETL/trunk/ETL/_thread.h,
+	ETL/trunk/ETL/_trivial.h, ETL/trunk/ETL/_value.h,
+	ETL/trunk/test/angle.cpp, ETL/trunk/test/benchmark.cpp,
+	ETL/trunk/test/clock.cpp, ETL/trunk/test/fixed.cpp,
+	ETL/trunk/test/handle.cpp, ETL/trunk/test/hermite.cpp,
+	ETL/trunk/test/pen.cpp, ETL/trunk/test/random.cpp,
+	ETL/trunk/test/smach.cpp, ETL/trunk/test/smart_ptr.cpp,
+	ETL/trunk/test/spline.cpp, ETL/trunk/test/stringf.cpp,
+	ETL/trunk/test/surface.cpp, ETL/trunk/test/value.cpp: Enable $Id$
+	expansion.  git-svn-id: http://svn.voria.com/code@334
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-15  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_misc.h: \fixme isn't accepted outside a function
+	definition:   Warning: Found unknown command `\fixme' git-svn-id: http://svn.voria.com/code@316
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-14  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/bezier, ETL/trunk/ETL/boxblur,
+	ETL/trunk/ETL/calculus, ETL/trunk/ETL/clock,
+	ETL/trunk/ETL/fastangle, ETL/trunk/ETL/fixed,
+	ETL/trunk/ETL/gaussian, ETL/trunk/ETL/handle,
+	ETL/trunk/ETL/hermite, ETL/trunk/ETL/ipc, ETL/trunk/ETL/misc,
+	ETL/trunk/ETL/pen, ETL/trunk/ETL/random, ETL/trunk/ETL/rect,
+	ETL/trunk/ETL/ref_count, ETL/trunk/ETL/smach,
+	ETL/trunk/ETL/smart_ptr, ETL/trunk/ETL/spline,
+	ETL/trunk/ETL/status, ETL/trunk/ETL/stringf, ETL/trunk/ETL/surface,
+	ETL/trunk/ETL/thread, ETL/trunk/ETL/trivial, ETL/trunk/ETL/value: 
+	Add a line at the start to tell GNU Emacs that this is a C++ source
+	file.  git-svn-id: http://svn.voria.com/code@315
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-13  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/project.spec.in: Fix some URLs git-svn-id: http://svn.voria.com/code@311
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-12  dooglus <dooglus@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pbproj/etl_profile.h, ETL/trunk/ETL/_angle.h,
+	ETL/trunk/ETL/_bezier.h, ETL/trunk/ETL/_boxblur.h,
+	ETL/trunk/ETL/_bspline.h, ETL/trunk/ETL/_calculus.h,
+	ETL/trunk/ETL/_clock_base.h, ETL/trunk/ETL/_clock_gettimeofday.h,
+	ETL/trunk/ETL/_clock_system.h, ETL/trunk/ETL/_clock_win32hpcount.h,
+	ETL/trunk/ETL/_curve.h, ETL/trunk/ETL/_curve_func.h,
+	ETL/trunk/ETL/_fastangle.h, ETL/trunk/ETL/_fastangle_tables.h,
+	ETL/trunk/ETL/_fixed.h, ETL/trunk/ETL/_gaussian.h,
+	ETL/trunk/ETL/_handle.h, ETL/trunk/ETL/_hermite.h,
+	ETL/trunk/ETL/_misc.h, ETL/trunk/ETL/_mutex_null.h,
+	ETL/trunk/ETL/_pen.h, ETL/trunk/ETL/_random.h,
+	ETL/trunk/ETL/_rect.h, ETL/trunk/ETL/_ref_count.h,
+	ETL/trunk/ETL/_smach.h, ETL/trunk/ETL/_smart_ptr.h,
+	ETL/trunk/ETL/_stringf.h, ETL/trunk/ETL/_surface.h,
+	ETL/trunk/ETL/_thread.h, ETL/trunk/ETL/_trivial.h,
+	ETL/trunk/ETL/_value.h, ETL/trunk/ETL/etl_config.h,
+	ETL/trunk/test/angle.cpp, ETL/trunk/test/clock.cpp,
+	ETL/trunk/test/fixed.cpp, ETL/trunk/test/handle.cpp,
+	ETL/trunk/test/hermite.cpp, ETL/trunk/test/pen.cpp,
+	ETL/trunk/test/random.cpp, ETL/trunk/test/smach.cpp,
+	ETL/trunk/test/smart_ptr.cpp, ETL/trunk/test/spline.cpp,
+	ETL/trunk/test/stringf.cpp, ETL/trunk/test/surface.cpp,
+	ETL/trunk/test/value.cpp: Removed trailing whitespace.  git-svn-id: http://svn.voria.com/code@303
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-11  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/hermite.cpp: Remove unused variable from the
+	hermite test function git-svn-id: http://svn.voria.com/code@295
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-11  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/configure.ac: Don't need to build anything other
+	than a tar.gz git-svn-id: http://svn.voria.com/code@292
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-11  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Fix 1581867: ensure we distribute the
+	licence by adding COPYING to EXTRA_DIST git-svn-id: http://svn.voria.com/code@291
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-03-09  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Add SVN version for the 0.04.07 release git-svn-id: http://svn.voria.com/code@275
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-02-27  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Don't use Voria in the description, since it no
+	longer exists git-svn-id: http://svn.voria.com/code@257
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2007-02-11  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/AUTHORS: Add an initial attempt at an AUTHORS file git-svn-id: http://svn.voria.com/code@240
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-08-14  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/INSTALL: Remove INSTALL file, it isn't useful and can be
+	supplied by autotools git-svn-id: http://svn.voria.com/code@219
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-08-14  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap: Allow etl to bootstrap in directories with
+	spaces in their names.  git-svn-id: http://svn.voria.com/code@216
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-08-09  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/README: Add a first try at a README file for ETL git-svn-id: http://svn.voria.com/code@214
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-08-06  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.kdevprj: Wooops, missed .spec versioning in
+	ETL.kdeprj git-svn-id: http://svn.voria.com/code@211
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/Makefile.am: Wooops, missed .spec versioning in
+	Makefile.am git-svn-id: http://svn.voria.com/code@208
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap: Add the NEWS file to the .spec instead of the
+	ChangeLog git-svn-id: http://svn.voria.com/code@206
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap: Don't add the version to the name of the
+	.spec files git-svn-id: http://svn.voria.com/code@203
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/subs.m4: Disable -ffast-math, since it causes
+	broken code on some platforms git-svn-id: http://svn.voria.com/code@195
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/spline.cpp: Fix compile error in the spline test
+	due to the clock needing etl:: git-svn-id: http://svn.voria.com/code@194
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/Makefile.am: Disable the spline/value tests since
+	they are broken.  git-svn-id: http://svn.voria.com/code@193
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/.cvsignore, ETL/trunk/ETL/.cvsignore,
+	ETL/trunk/config/.cvsignore, ETL/trunk/test/.cvsignore: Move
+	.cvsignore to svn:ignore property git-svn-id: http://svn.voria.com/code@192
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-23  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pc.in: Remove generated ETL.pc.in git-svn-id: http://svn.voria.com/code@189
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-23  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/doxygen.cfg: Remove generated doxygen.cfg git-svn-id: http://svn.voria.com/code@188
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-07-23  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Add a couple of SVN numbers known to correspond to
+	releases.  git-svn-id: http://svn.voria.com/code@185
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-05-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ChangeLog: Remove empty ETL ChangeLog (will use svn2cl) git-svn-id: http://svn.voria.com/code@172
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-05-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/NEWS: Add initial attempt at a NEWS file for ETL git-svn-id: http://svn.voria.com/code@171
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-04-24  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/test/Makefile.am: Fix 1475210: allow etl to be
+	bootstrapped properly git-svn-id: http://svn.voria.com/code@159
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-03-30  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Change to Andreas Jochens patch for
+	Debian bugs #358474/#359690 git-svn-id: http://svn.voria.com/code@156
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-03-26  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Fix #1349630: This fixes the etl side of
+	the synfig amd64 FTBFS git-svn-id: http://svn.voria.com/code@154
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-02-28  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/ETL_0_04_08/ETL/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/ChangeLog,
+	ETL/tags/ETL_0_04_08/ETL/ETL-config.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL.kdevprj,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/darco.mode1,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/darco.pbxuser,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/etl_profile.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pbproj/project.pbxproj,
+	ETL/tags/ETL_0_04_08/ETL/ETL.pc.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL.prj,
+	ETL/tags/ETL_0_04_08/ETL/ETL/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_angle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bezier.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bezier_angle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bit_rotate.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_boxblur.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_bspline.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_calculus.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_base.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_gettimeofday.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_system.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_clock_win32hpcount.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_condition.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_curve.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_curve_func.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fastangle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fastangle_tables.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_fixed.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_gaussian.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_handle.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_hermite.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_misc.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_null.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_pthreads.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_mutex_win32.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_pen.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_random.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_rect.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_ref_count.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_rwlock.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_smach.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_smart_ptr.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_status.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_stringf.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_surface.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_thread.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_trivial.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/_value.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/angle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/bezier,
+	ETL/tags/ETL_0_04_08/ETL/ETL/boxblur,
+	ETL/tags/ETL_0_04_08/ETL/ETL/calculus,
+	ETL/tags/ETL_0_04_08/ETL/ETL/clock,
+	ETL/tags/ETL_0_04_08/ETL/ETL/etl_config.h,
+	ETL/tags/ETL_0_04_08/ETL/ETL/etl_profile_.h.in,
+	ETL/tags/ETL_0_04_08/ETL/ETL/fastangle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/fixed,
+	ETL/tags/ETL_0_04_08/ETL/ETL/gaussian,
+	ETL/tags/ETL_0_04_08/ETL/ETL/handle,
+	ETL/tags/ETL_0_04_08/ETL/ETL/hermite,
+	ETL/tags/ETL_0_04_08/ETL/ETL/ipc,
+	ETL/tags/ETL_0_04_08/ETL/ETL/misc,
+	ETL/tags/ETL_0_04_08/ETL/ETL/pen,
+	ETL/tags/ETL_0_04_08/ETL/ETL/random,
+	ETL/tags/ETL_0_04_08/ETL/ETL/rect,
+	ETL/tags/ETL_0_04_08/ETL/ETL/ref_count,
+	ETL/tags/ETL_0_04_08/ETL/ETL/smach,
+	ETL/tags/ETL_0_04_08/ETL/ETL/smart_ptr,
+	ETL/tags/ETL_0_04_08/ETL/ETL/spline,
+	ETL/tags/ETL_0_04_08/ETL/ETL/status,
+	ETL/tags/ETL_0_04_08/ETL/ETL/stringf,
+	ETL/tags/ETL_0_04_08/ETL/ETL/surface,
+	ETL/tags/ETL_0_04_08/ETL/ETL/thread,
+	ETL/tags/ETL_0_04_08/ETL/ETL/trivial,
+	ETL/tags/ETL_0_04_08/ETL/ETL/value,
+	ETL/tags/ETL_0_04_08/ETL/INSTALL,
+	ETL/tags/ETL_0_04_08/ETL/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/README,
+	ETL/tags/ETL_0_04_08/ETL/bootstrap,
+	ETL/tags/ETL_0_04_08/ETL/config/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/config/ETL.m4,
+	ETL/tags/ETL_0_04_08/ETL/config/build.cfg,
+	ETL/tags/ETL_0_04_08/ETL/config/configure.ac,
+	ETL/tags/ETL_0_04_08/ETL/config/cxx_macros.m4,
+	ETL/tags/ETL_0_04_08/ETL/config/doxygen.cfg.in,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/ETL-devel.info,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/License
+	.rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/ReadMe.
+	rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/Welcome
+	.rtf,
+	ETL/tags/ETL_0_04_08/ETL/config/pkg-support/devel-resources/install
+	.sh, ETL/tags/ETL_0_04_08/ETL/config/pkgconfig.pc.in,
+	ETL/tags/ETL_0_04_08/ETL/config/project.spec.in,
+	ETL/tags/ETL_0_04_08/ETL/config/subs.m4,
+	ETL/tags/ETL_0_04_08/ETL/doxygen.cfg,
+	ETL/tags/ETL_0_04_08/ETL/test/.cvsignore,
+	ETL/tags/ETL_0_04_08/ETL/test/Makefile.am,
+	ETL/tags/ETL_0_04_08/ETL/test/angle.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/benchmark.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/clock.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/fixed.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/handle.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/hermite.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/pen.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/random.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/smach.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/smart_ptr.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/spline.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/stringf.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/surface.cpp,
+	ETL/tags/ETL_0_04_08/ETL/test/value.cpp: Release ETL_0_04_08 git-svn-id: http://svn.voria.com/code@145
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-02-28  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/tags/stable/ETL/.cvsignore, ETL/tags/stable/ETL/ChangeLog,
+	ETL/tags/stable/ETL/ETL-config.in, ETL/tags/stable/ETL/ETL.kdevprj,
+	ETL/tags/stable/ETL/ETL.pbproj/darco.mode1,
+	ETL/tags/stable/ETL/ETL.pbproj/darco.pbxuser,
+	ETL/tags/stable/ETL/ETL.pbproj/etl_profile.h,
+	ETL/tags/stable/ETL/ETL.pbproj/frameworkfix.cpp,
+	ETL/tags/stable/ETL/ETL.pbproj/project.pbxproj,
+	ETL/tags/stable/ETL/ETL.pc.in, ETL/tags/stable/ETL/ETL.prj,
+	ETL/tags/stable/ETL/ETL/.cvsignore,
+	ETL/tags/stable/ETL/ETL/Makefile.am,
+	ETL/tags/stable/ETL/ETL/_angle.h,
+	ETL/tags/stable/ETL/ETL/_bezier.h,
+	ETL/tags/stable/ETL/ETL/_bezier_angle.h,
+	ETL/tags/stable/ETL/ETL/_bit_rotate.h,
+	ETL/tags/stable/ETL/ETL/_boxblur.h,
+	ETL/tags/stable/ETL/ETL/_bspline.h,
+	ETL/tags/stable/ETL/ETL/_calculus.h,
+	ETL/tags/stable/ETL/ETL/_clock_base.h,
+	ETL/tags/stable/ETL/ETL/_clock_gettimeofday.h,
+	ETL/tags/stable/ETL/ETL/_clock_system.h,
+	ETL/tags/stable/ETL/ETL/_clock_win32hpcount.h,
+	ETL/tags/stable/ETL/ETL/_condition.h,
+	ETL/tags/stable/ETL/ETL/_curve.h,
+	ETL/tags/stable/ETL/ETL/_curve_func.h,
+	ETL/tags/stable/ETL/ETL/_fastangle.h,
+	ETL/tags/stable/ETL/ETL/_fastangle_tables.h,
+	ETL/tags/stable/ETL/ETL/_fixed.h,
+	ETL/tags/stable/ETL/ETL/_gaussian.h,
+	ETL/tags/stable/ETL/ETL/_handle.h,
+	ETL/tags/stable/ETL/ETL/_hermite.h,
+	ETL/tags/stable/ETL/ETL/_misc.h,
+	ETL/tags/stable/ETL/ETL/_mutex_null.h,
+	ETL/tags/stable/ETL/ETL/_mutex_pthreads.h,
+	ETL/tags/stable/ETL/ETL/_mutex_win32.h,
+	ETL/tags/stable/ETL/ETL/_pen.h, ETL/tags/stable/ETL/ETL/_random.h,
+	ETL/tags/stable/ETL/ETL/_rect.h,
+	ETL/tags/stable/ETL/ETL/_ref_count.h,
+	ETL/tags/stable/ETL/ETL/_rwlock.h,
+	ETL/tags/stable/ETL/ETL/_smach.h,
+	ETL/tags/stable/ETL/ETL/_smart_ptr.h,
+	ETL/tags/stable/ETL/ETL/_status.h,
+	ETL/tags/stable/ETL/ETL/_stringf.h,
+	ETL/tags/stable/ETL/ETL/_surface.h,
+	ETL/tags/stable/ETL/ETL/_thread.h,
+	ETL/tags/stable/ETL/ETL/_trivial.h,
+	ETL/tags/stable/ETL/ETL/_value.h, ETL/tags/stable/ETL/ETL/angle,
+	ETL/tags/stable/ETL/ETL/bezier, ETL/tags/stable/ETL/ETL/boxblur,
+	ETL/tags/stable/ETL/ETL/calculus, ETL/tags/stable/ETL/ETL/clock,
+	ETL/tags/stable/ETL/ETL/etl_config.h,
+	ETL/tags/stable/ETL/ETL/etl_profile_.h.in,
+	ETL/tags/stable/ETL/ETL/fastangle, ETL/tags/stable/ETL/ETL/fixed,
+	ETL/tags/stable/ETL/ETL/gaussian, ETL/tags/stable/ETL/ETL/handle,
+	ETL/tags/stable/ETL/ETL/hermite, ETL/tags/stable/ETL/ETL/ipc,
+	ETL/tags/stable/ETL/ETL/misc, ETL/tags/stable/ETL/ETL/pen,
+	ETL/tags/stable/ETL/ETL/random, ETL/tags/stable/ETL/ETL/rect,
+	ETL/tags/stable/ETL/ETL/ref_count, ETL/tags/stable/ETL/ETL/smach,
+	ETL/tags/stable/ETL/ETL/smart_ptr, ETL/tags/stable/ETL/ETL/spline,
+	ETL/tags/stable/ETL/ETL/status, ETL/tags/stable/ETL/ETL/stringf,
+	ETL/tags/stable/ETL/ETL/surface, ETL/tags/stable/ETL/ETL/thread,
+	ETL/tags/stable/ETL/ETL/trivial, ETL/tags/stable/ETL/ETL/value,
+	ETL/tags/stable/ETL/INSTALL, ETL/tags/stable/ETL/Makefile.am,
+	ETL/tags/stable/ETL/README, ETL/tags/stable/ETL/bootstrap,
+	ETL/tags/stable/ETL/config/.cvsignore,
+	ETL/tags/stable/ETL/config/ETL.m4,
+	ETL/tags/stable/ETL/config/build.cfg,
+	ETL/tags/stable/ETL/config/configure.ac,
+	ETL/tags/stable/ETL/config/cxx_macros.m4,
+	ETL/tags/stable/ETL/config/doxygen.cfg.in,
+	ETL/tags/stable/ETL/config/pkg-support/ETL-devel.info,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/License.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/ReadMe.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/Welcome.rtf,
+	ETL/tags/stable/ETL/config/pkg-support/devel-resources/install.sh,
+	ETL/tags/stable/ETL/config/pkgconfig.pc.in,
+	ETL/tags/stable/ETL/config/project.spec.in,
+	ETL/tags/stable/ETL/config/subs.m4,
+	ETL/tags/stable/ETL/doxygen.cfg,
+	ETL/tags/stable/ETL/test/.cvsignore,
+	ETL/tags/stable/ETL/test/Makefile.am,
+	ETL/tags/stable/ETL/test/angle.cpp,
+	ETL/tags/stable/ETL/test/benchmark.cpp,
+	ETL/tags/stable/ETL/test/clock.cpp,
+	ETL/tags/stable/ETL/test/fixed.cpp,
+	ETL/tags/stable/ETL/test/handle.cpp,
+	ETL/tags/stable/ETL/test/hermite.cpp,
+	ETL/tags/stable/ETL/test/pen.cpp,
+	ETL/tags/stable/ETL/test/random.cpp,
+	ETL/tags/stable/ETL/test/smach.cpp,
+	ETL/tags/stable/ETL/test/smart_ptr.cpp,
+	ETL/tags/stable/ETL/test/spline.cpp,
+	ETL/tags/stable/ETL/test/stringf.cpp,
+	ETL/tags/stable/ETL/test/surface.cpp,
+	ETL/tags/stable/ETL/test/value.cpp: Stable Tag: Copying everyhting
+	over git-svn-id: http://svn.voria.com/code@143
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-02-28  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pc.in, ETL/trunk/Makefile.am, ETL/trunk/bootstrap,
+	ETL/trunk/config/build.cfg, ETL/trunk/config/configure.ac,
+	ETL/trunk/doxygen.cfg: Bump version number. Add SVN version to
+	version number. Convert tagstable and tagrelease targets to use SVN.  git-svn-id: http://svn.voria.com/code@139
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-02-19  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_surface.h: Fix 1349630: forgot to #include
+	<algorithm> when using std::min git-svn-id: http://svn.voria.com/code@125
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-01-30  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/config/doxygen.cfg.in, ETL/trunk/doxygen.cfg: Fix
+	1402909: update doxygen configuration files git-svn-id: http://svn.voria.com/code@121
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2006-01-30  pabs <pabs@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: Fix 1356998: compile error on IRIX git-svn-id: http://svn.voria.com/code@119
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-11-09  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/bootstrap, ETL/trunk/config/sdl.m4: Remove SDL macros.
+	Add quoting and cygwin support to ./bootstrap.  git-svn-id: http://svn.voria.com/code@56
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-11-09  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL.pbproj/frameworkfix.cpp, ETL/trunk/ETL.pc.in,
+	ETL/trunk/ETL/_clock_gettimeofday.h, ETL/trunk/ETL/_curve_func.h,
+	ETL/trunk/ETL/_fixed.h, ETL/trunk/ETL/_handle.h,
+	ETL/trunk/ETL/_smart_ptr.h, ETL/trunk/Makefile.am,
+	ETL/trunk/config/build.cfg, ETL/trunk/doxygen.cfg,
+	ETL/trunk/test/Makefile.am, ETL/trunk/test/fixed.cpp,
+	ETL/trunk/test/handle.cpp, ETL/trunk/test/smart_ptr.cpp: Bump
+	version number. Remove bogus copyright line. Don't distribute the
+	kdevelop project. Add multiplication stuff to the fixed templates.
+	Various fixes for the fixed, curve_func, handle, smart_ptr and clock
+	templates. Fixes for the fixed, smart_ptr and handle tests. Disable
+	the value and spline tests.  git-svn-id: http://svn.voria.com/code@52
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-10-31  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h: More file path fixes git-svn-id: http://svn.voria.com/code@33
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-04-11  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_stringf.h, ETL/trunk/bootstrap,
+	ETL/trunk/test/stringf.cpp: Fixed the file path stuff. Don't show
+	the bootstrap warning when .svn is present.  git-svn-id: http://svn.voria.com/code@15
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-03-24  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* ETL/trunk/ETL/_misc.h: floor is not needed when casting to int git-svn-id: http://svn.voria.com/code@2
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
+2005-03-24  darco <darco@1f10aa63-cdf2-0310-b900-c93c546f37ac>
+
+	* Initial import of ETL git-svn-id: http://svn.voria.com/code@1
+	1f10aa63-cdf2-0310-b900-c93c546f37ac
+
